@@ -13,6 +13,8 @@
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <link href="http://vjs.zencdn.net/4.12/video-js.css" rel="stylesheet">
+        <script src="http://vjs.zencdn.net/4.12/video.js"></script>
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
@@ -53,8 +55,8 @@
                     <p class="lead mb-5">Open to work (remote, hybrid, onsite), only for B2B(Business to business)/PJ(Pessoa Jurídica) proposals.</p>
                     <p class="lead mb-5">GOAL: Find my first job as Azure Data Engineer Junior.</p>
                     <div class="social-icons">
-                        <a class="social-icon" href="https://www.linkedin.com/in/andreyolv/"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="social-icon" href="https://github.com/andreyolv"><i class="fab fa-github"></i></a>
+                        <a class="social-icon" href="https://bit.ly/32jFB2V"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon" href="https://bit.ly/3p91J8V"><i class="fab fa-github"></i></a>
                         <a class="social-icon" href="https://wa.me/5541987794249?text=Hi, Andrey"><i class="fab fa-whatsapp"></i></a>
                     </div>
                 </div>
@@ -67,7 +69,7 @@
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Data Scientist</h3>
-                            <div class="subheading mb-3">MySelf</div>
+                            <div class="subheading mb-3">Andrey Olv</div>
                                 <p>You can see a summary of all my data science projects here:<a href="https://github.com/andreyolv/portfolio">Portfolio Andrey Olv</a></p>
                         </div>                                    
                         <div class="flex-shrink-0"><span class="text-primary">May 2021 - Present</span></div>
@@ -167,6 +169,30 @@
                     <iframe width="420" height="200"
                     src="https://youtube.com/embed/6-NeLvZY3Cg">
                     </iframe><br>
+                    <!-- Hidden video div -->
+<div style="display:none;" id="video1">
+    <video class="lg-video-object lg-html5 video-js vjs-default-skin" controls preload="none">
+        <source src="videos/video1.mp4" type="video/mp4">
+         Your browser does not support HTML5 video.
+    </video>
+</div>
+<div style="display:none;" id="video2">
+    <video class="lg-video-object lg-html5 video-js vjs-default-skin" controls preload="none">
+        <source src="videos/video2.mp4" type="video/mp4">
+         Your browser does not support HTML5 video.
+    </video>
+</div>
+ 
+<!-- data-src should not be provided when you use html5 videos -->
+<ul id="video-gallery">
+  <li data-poster="video-poster1.jpg" data-sub-html="video caption1" data-html="#video1" >
+      <img src="img/thumb1.jpg" />
+  </li>
+  <li data-poster="video-poster2.jpg" data-sub-html="video caption2" data-html="#video2" >
+      <img src="img/thumb2.jpg" />
+  </li>
+  ...
+</ul>
                 </div>
             </section>
             <hr class="m-0" />
