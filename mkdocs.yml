@@ -1,0 +1,89 @@
+# GitHub Pages site for andreyolv.github.io
+# Build locally with: pip install -r requirements.txt && mkdocs serve
+# Navigation is generated from the docs/ folder tree on purpose, so new
+# portfolio pages show up without editing this file.
+
+site_name: Andrey Oliveira
+site_description: Platform & Data Engineering — CV, projects and technical portfolio.
+site_author: Andrey Oliveira
+site_url: https://andreyolv.github.io/
+
+repo_name: andreyolv/andreyolv.github.io
+repo_url: https://github.com/andreyolv/andreyolv.github.io
+edit_uri: edit/main/docs/
+
+docs_dir: docs
+
+# Internal meta pages of the portfolio library: built and linkable, but kept out
+# of the navigation so the sidebar stays focused on real portfolio content.
+not_in_nav: |
+  /portfolio/docs.md
+  /portfolio/docs-standard.md
+
+theme:
+  name: material
+  language: en
+  logo: assets/avatar.jpg
+  favicon: assets/avatar.jpg
+  palette:
+  - media: "(prefers-color-scheme: light)"
+    scheme: default
+    primary: deep purple
+    accent: indigo
+    toggle:
+      icon: material/brightness-7
+      name: Switch to dark mode
+  - media: "(prefers-color-scheme: dark)"
+    scheme: slate
+    primary: deep purple
+    accent: indigo
+    toggle:
+      icon: material/brightness-4
+      name: Switch to light mode
+  features:
+  - navigation.indexes
+  - navigation.sections
+  - navigation.top
+  - navigation.footer
+  - search.highlight
+  - search.suggest
+  - content.code.copy
+
+extra_css:
+- assets/extra.css
+
+plugins:
+- search
+
+markdown_extensions:
+- admonition
+- attr_list
+- md_in_html
+- tables
+- toc:
+    permalink: true
+- pymdownx.details
+- pymdownx.emoji:
+    emoji_index: !!python/name:material.extensions.emoji.twemoji
+    emoji_generator: !!python/name:material.extensions.emoji.to_svg
+- pymdownx.tabbed:
+    alternate_style: true
+- pymdownx.highlight
+- pymdownx.inlinehilite
+- pymdownx.superfences:
+    custom_fences:
+    - name: mermaid
+      class: mermaid
+      format: !!python/name:pymdownx.superfences.fence_code_format
+
+validation:
+  links:
+    not_found: info
+    unrecognized_links: info
+
+extra:
+  generator: false
+  social:
+  - icon: fontawesome/brands/github
+    link: https://github.com/andreyolv
+    name: GitHub — andreyolv
