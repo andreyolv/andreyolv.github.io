@@ -28,3 +28,23 @@
 
 ## To Do
 - Alterntativ to AWS Athena
+
+## Skills
+- Analytics Engineering
+
+- Data Engineering
+
+- FinOps
+
+- Platform Engineering
+
+## Tools
+- DuckDB
+
+- Apache Spark
+
+- Kubernetes
+
+- Apache Iceberg
+
+- Trino

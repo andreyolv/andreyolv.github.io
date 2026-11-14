@@ -57,3 +57,23 @@ To prevent security gaps and technical debt, the following methods are discourag
 ---
 
 > **Note:** This policy aims to ensure business continuity and the protection of our intellectual property. For technical questions regarding GitHub App implementation, consult the official documentation or the Architecture/DataOps team.
+
+## Skills
+- Security
+
+- Identity and Access Management
+
+- DevSecOps
+
+- CI/CD
+
+## Tools
+- GitHub
+
+- GitHub App
+
+- GitHub Actions
+
+- AWS Secrets Manager
+
+- HashiCorp Vault

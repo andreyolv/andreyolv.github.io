@@ -23,3 +23,17 @@
 - Environment Isolation: Supported isolated environments for development, staging, and production, reducing the risk of conflicts and ensuring safe experimentation.
 
 - Reduced Operational Effort: By automating workflow management and scaling, operational overhead was minimized, enabling teams to focus on building models and pipelines rather than managing infrastructure.
+
+## Skills
+- MLOps
+
+- Platform Engineering
+
+- Kubernetes
+
+- Observability
+
+## Tools
+- LangFlow
+
+- Kubernetes

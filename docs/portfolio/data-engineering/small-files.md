@@ -27,3 +27,23 @@
 - Cost and Performance Governance: Established thresholds and alerts to prevent uncontrolled small file growth, enforcing best practices at ingestion time.
 
 - Continuous Optimization: Integrated monitoring and compaction into the data platform lifecycle, ensuring long-term stability, performance, and cost efficiency.
+
+## Skills
+- Data Engineering
+
+- Big Data
+
+- FinOps
+
+- Data Governance
+
+## Tools
+- Apache Spark
+
+- Trino
+
+- DuckDB
+
+- Apache Iceberg
+
+- Hive Metastore

@@ -23,3 +23,19 @@
 - Topology-Aware Scheduling: Configured the scheduler to recognize standard topology labels (e.g., topology.kubernetes.io/zone), making the distribution logic cloud-agnostic.
 
 - Lifecycle Resilience: Protected the application layer against aggressive evictions from the Cluster Autoscaler or Descheduler, maintaining a consistent performance baseline.
+
+## Skills
+- Site Reliability Engineering
+
+- Kubernetes
+
+- Platform Engineering
+
+- Cloud Engineering
+
+## Tools
+- Kubernetes
+
+- Cluster Autoscaler
+
+- Descheduler

@@ -16,10 +16,10 @@
 
 - Resource Provisioning: Provisioning and managing diverse Azure services such Azure Kubernetes Service (AKS), Azure Database for PostgreSQL Flexible Server, Azure Container Registry (ACR), Azure Blob Storage, Azure File Share, Azure Synapse Analytics, Azure Key Vault, Azure Container Apps, Azure Event Hubs, Azure Databricks, Azure Subnets.
 
-# Skills
+## Skills
 - Cloud Computing
 
-# Tools
+## Tools
 - Terraform
 
 - Crossplane
@@ -38,10 +38,6 @@
 
 - Azure Key Vault
 
-- Azure Container Apps
-
 - Azure Event Hubs
 
 - Azure Databricks
-
-- Azure Subnets

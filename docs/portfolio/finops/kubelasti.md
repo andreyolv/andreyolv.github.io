@@ -25,3 +25,19 @@
 - Seamless Integration: Implemented the solution without requiring code changes to the applications, using KubeElasti's ability to intercept and trigger scaling events based on demand.
 
 - Cost Visibility: Tracked resource savings by correlating KubeElasti scaling events with infrastructure billing, proving a direct reduction in monthly Kubernetes spend.
+
+## Skills
+- FinOps
+
+- Platform Engineering
+
+- Kubernetes
+
+## Tools
+- KubeElasti
+
+- Kubernetes
+
+- KEDA
+
+- Horizontal Pod Autoscaler (HPA)

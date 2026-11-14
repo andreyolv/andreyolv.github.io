@@ -23,3 +23,19 @@
 - Automated Capacity Management: Configured the environment to automatically scale Base RPU based on workload, eliminating manual tuning and reducing costs during idle periods.
 
 - Unified Infrastructure as Code: Managed the subnets, security groups, and Redshift Serverless resources within a single Terraform execution for consistent environment replication.
+
+## Skills
+- Cloud Engineering
+
+- FinOps
+
+- Databases
+
+- Cloud Architecture
+
+## Tools
+- Amazon Redshift Serverless
+
+- Terraform
+
+- Kubernetes

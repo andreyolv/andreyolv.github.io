@@ -21,3 +21,25 @@
 - Karpenter / Cluster Autoscaler Integration: Integrated advanced autoscalers to rapidly provision and terminate nodes, ensuring the cluster only costs what is strictly necessary during job execution.
 
 - Centralized Job Observability: Configured Prometheus to monitor job performance and resource consumption, providing a clear ROI on infrastructure spend.
+
+## Skills
+- Data Engineering
+
+- Big Data
+
+- Kubernetes
+
+- FinOps
+
+## Tools
+- Amazon EMR
+
+- Amazon EKS
+
+- Apache Spark
+
+- Kubernetes
+
+- Karpenter
+
+- Prometheus

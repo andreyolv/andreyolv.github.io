@@ -46,3 +46,23 @@ dbt cicd openmetadata
 dbt tests automatizados
 dbt iceberg optimize
 dbt algo mais?
+
+## Skills
+- Analytics Engineering
+
+- Data Engineering
+
+- Platform Engineering
+
+- DevOps
+
+## Tools
+- dbt
+
+- Apache Airflow
+
+- Astronomer
+
+- Kubernetes
+
+- Git

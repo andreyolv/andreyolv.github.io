@@ -25,3 +25,21 @@
 - Operational Observability: Exposed ingestion metrics and logs to Prometheus and Grafana for visibility into lag, failures, and pipeline health.
 
 - Cost-Effective Architecture: Reduced infrastructure footprint and operational cost by eliminating streaming platforms while preserving near-real-time CDC semantics.
+
+## Skills
+- Data Engineering
+
+- Data Streaming
+
+- Platform Engineering
+
+## Tools
+- OLake
+
+- Apache Iceberg
+
+- Kubernetes
+
+- Prometheus
+
+- Grafana

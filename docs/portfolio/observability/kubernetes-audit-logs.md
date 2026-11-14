@@ -27,3 +27,23 @@
 - GitOps for Configuration Management: Managed audit pipeline configurations declaratively with Git, ensuring version control and reproducibility.
 
 - Historical and Forensic Analysis: Allowed teams to investigate past incidents, perform forensic analysis, and generate compliance reports efficiently.
+
+## Skills
+- Observability
+
+- Security
+
+- Kubernetes
+
+- GitOps
+
+## Tools
+- Kubernetes
+
+- S3
+
+- GCS
+
+- Azure Blob
+
+- Git

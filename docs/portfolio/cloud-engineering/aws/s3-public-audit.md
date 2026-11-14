@@ -23,3 +23,19 @@
 - Secure Transport Enforcement: Enforced SSL/TLS for all data in transit by requiring aws:SecureTransport within the bucket policy.
 
 - Audit-Ready Architecture: Centralized log collection, enabling the security team to generate compliance reports and verify that data remained within the intended network boundary.
+
+## Skills
+- Security
+
+- Cloud Governance
+
+- Cloud Engineering
+
+- DevSecOps
+
+## Tools
+- Amazon S3
+
+- AWS CloudTrail
+
+- AWS IAM

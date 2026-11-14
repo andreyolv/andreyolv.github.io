@@ -15,3 +15,23 @@
 - Unified Resource Lifecycle: Managed the creation of the Kubernetes Namespace, Service Account, and AWS IAM Role within the same Terraform state for atomic deployments.
 
 - Dynamic IAM Policy Attachment: Automated the attachment of predefined policies (S3, Glue, Athena) to the role created for each Airflow worker.
+
+## Skills
+- Platform Engineering
+
+- Infrastructure as Code
+
+- Kubernetes
+
+- Identity and Access Management
+
+## Tools
+- Terraform
+
+- EKS Pod Identity
+
+- AWS IAM
+
+- Kubernetes
+
+- Airflow

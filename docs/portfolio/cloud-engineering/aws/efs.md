@@ -21,3 +21,25 @@
 - EFS Access Points: Deployed EFS Access Points to enforce specific POSIX users and permissions, ensuring secure and isolated access for different application service accounts.
 
 - High Availability & Durability: Leveraged the regional nature of EFS to ensure that DAGs and metadata remain available even in the event of an Availability Zone (AZ) failure.
+
+## Skills
+- Cloud Engineering
+
+- Kubernetes
+
+- Site Reliability Engineering
+
+- DevOps
+
+## Tools
+- Amazon EFS
+
+- Amazon EBS
+
+- AWS Backup
+
+- Kubernetes
+
+- Apache Airflow
+
+- OpenMetadata

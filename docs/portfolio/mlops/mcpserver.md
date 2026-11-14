@@ -23,3 +23,17 @@
 - Multi-Team Support and Access Control: Enables multiple teams to deploy and manage their pipelines independently while avoiding conflicts in a shared infrastructure.
 
 - Integration with Kubernetes: Seamlessly executes pipelines on Kubernetes clusters, leveraging native scaling, networking, and resource management.
+
+## Skills
+- MLOps
+
+- Platform Engineering
+
+- Kubernetes
+
+- Observability
+
+## Tools
+- MCPServer
+
+- Kubernetes

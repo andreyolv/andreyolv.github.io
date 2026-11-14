@@ -33,3 +33,17 @@ https://ahmed-mokbel.medium.com/how-to-use-soda-for-data-quality-checks-with-apa
 https://airflowsummit.org/slides/2023/2-York-1400-East-Sleep-Test-Repeat.pdf
 
 dashboard data quality coverage %
+
+## Skills
+- Data Quality
+
+- Data Governance
+
+- Data Engineering
+
+- Observability
+
+## Tools
+- Soda
+
+- Apache Airflow

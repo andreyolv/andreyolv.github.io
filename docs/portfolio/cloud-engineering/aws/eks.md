@@ -27,3 +27,15 @@
 - Lifecycle Automation: Enabled automated cluster creation, scaling, upgrades, and recreation with minimal manual intervention.
 
 - Environment Parity: Ensured consistent cluster provisioning across all environments using the same codebase and configuration model.
+
+## Skills
+- Cloud Engineering
+
+- Kubernetes
+
+- Platform Engineering
+
+- Infrastructure as Code
+
+## Tools
+- Kubernetes

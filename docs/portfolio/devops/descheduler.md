@@ -18,12 +18,12 @@
 
 - Resource Reallocation: By removing stuck pods, free up node resources for valid workloads, ensuring that resources are utilized efficiently and reducing unnecessary costs.
 
-# Skills
+## Skills
 - DevOps
 
 - Platform Engineering
 
-# Tools
+## Tools
 - Kubernetes
 
 - Descheduler

@@ -29,3 +29,23 @@
 - Multi-Environment Consistency: Applied the same CRD manifests across development, staging, and production clusters, ensuring predictable and reproducible setups.
 
 - Reduced Operational Overhead: Eliminated manual cluster and topology operations, improving reliability and freeing engineering resources for higher-value tasks.
+
+## Skills
+- Software Engineering
+
+- Data Streaming
+
+- Kubernetes
+
+- Platform Engineering
+
+## Tools
+- RabbitMQ
+
+- RabbitMQ Messaging Topology Kubernetes Operator
+
+- Kubernetes
+
+- Prometheus
+
+- Git

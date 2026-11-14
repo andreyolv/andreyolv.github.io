@@ -26,3 +26,25 @@ policy controller | kyverno
 
 https://github.com/actions/attest-build-provenance
 https://slsa.dev/spec/v1.2-rc2/
+
+## Skills
+- Security
+
+- Supply Chain Security
+
+- DevSecOps
+
+- CI/CD
+
+## Tools
+- Syft
+
+- Cosign
+
+- Kyverno
+
+- GitHub Actions
+
+- SPDX
+
+- CycloneDX

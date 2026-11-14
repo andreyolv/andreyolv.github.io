@@ -20,3 +20,13 @@
 
 ## Future Improvements
 - SSO Integration: Plan to integrate Single Sign-On (SSO) using providers like OAuth2, Entra ID, simplifying access management and ensuring seamless and secure authentication for users across the organization. Não possível não versão OpenSource.
+
+## Skills
+- Analytics Engineering
+
+- Data Engineering
+
+- Platform Engineering
+
+## Tools
+- Airbyte

@@ -26,3 +26,19 @@
 - Compliance-Ready Architecture: Enabled architectures aligned with security and compliance requirements by enforcing private-only access paths and - reducing exposure to the public internet.
 
 - Improved Observability and Control: Centralized network traffic paths, making it easier to audit, monitor, and reason about data flows across infrastructure.
+
+## Skills
+- Cloud Networking
+
+- Cloud Engineering
+
+- Security
+
+- Kubernetes
+
+## Tools
+- Private Link / Private Endpoints
+
+- Kubernetes
+
+- Private DNS

@@ -34,3 +34,19 @@
 criar script pra copiar no aws secret manager e criar conexões no openmetadata
 
 mcp server
+
+## Skills
+- Data Governance
+
+- Data Engineering
+
+- Data Quality
+
+- Platform Engineering
+
+## Tools
+- OpenMetadata
+
+- AWS Secrets Manager
+
+- Model Context Protocol (MCP)

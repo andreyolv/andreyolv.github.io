@@ -101,3 +101,16 @@ Let teams use the platform without the platform team in the loop, and prepare it
 - Cloud Architecture
 
 - Stakeholder Management
+
+## Tools
+- Terraform
+
+- Kubernetes
+
+- Flux
+
+- Airflow
+
+- Spark
+
+- Trino

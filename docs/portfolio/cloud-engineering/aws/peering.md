@@ -19,3 +19,23 @@
 - Cross-VPC Security Group Rules: Implemented granular Security Group rules that allow traffic only on specific ports (e.g., 5439 for Redshift, 3306 for RDS) between the peer networks.
 
 - DNS Resolution Support: Enabled DNS hostnames resolution over the peering connection, allowing Tech services to resolve Data resources via private AWS hostnames.
+
+## Skills
+- Cloud Networking
+
+- Cloud Engineering
+
+- Cloud Architecture
+
+- Networking
+
+## Tools
+- AWS VPC Peering
+
+- Amazon VPC
+
+- Amazon Redshift
+
+- Amazon RDS
+
+- Amazon EMR

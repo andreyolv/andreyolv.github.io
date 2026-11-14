@@ -38,3 +38,21 @@ abre PR pra breanch prd -> tf plan no PR pra revisar
 merge PR pra branch main -> tf apply prd
 travamento de concorrência de PR pra não ter mais de 1 PR aberto de terraform ao mesmo tempo e gerar inconsistência nos tf plans de PRs simultâneos
 tf plan passa via artefato no github criptografado entre workflow do plan e workflow do apply pra garantir q o apply vai rodar o plan anterior exato e não gerar inconsistencia
+
+## Skills
+- DevOps
+
+- CI/CD
+
+- Infrastructure as Code
+
+- Cloud Engineering
+
+## Tools
+- Terraform
+
+- GitHub Actions
+
+- Amazon S3
+
+- Amazon DynamoDB

@@ -21,3 +21,23 @@
 - Differential Profiling (Diff View): Enabled comparison between different deployments or time ranges to instantly identify performance regressions introduced by new code commits.
 
 - Integration with Grafana Stack: Unified profiling data with existing Prometheus metrics and Tempo traces, providing a "single pane of glass" for troubleshooting the entire request lifecycle.
+
+## Skills
+- Observability
+
+- Site Reliability Engineering
+
+- DevOps
+
+- Software Engineering
+
+## Tools
+- Grafana Pyroscope
+
+- eBPF
+
+- Prometheus
+
+- Grafana Tempo
+
+- Grafana

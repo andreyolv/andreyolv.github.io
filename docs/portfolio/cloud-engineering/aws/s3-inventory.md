@@ -23,3 +23,23 @@
 - Storage Growth Auditing: Created a baseline for storage consumption, enabling the identification of "top-talker" directories that consume the most budget.
 
 - Lifecycle Policy Optimization: Used inventory insights to validate and trigger S3 Lifecycle policies, ensuring objects are moved to cheaper storage classes (Glacier/Instant Retrieval) based on actual usage data.
+
+## Skills
+- FinOps
+
+- Data Engineering
+
+- Cloud Engineering
+
+- Cloud Governance
+
+## Tools
+- Amazon S3 Inventory
+
+- Amazon Athena
+
+- Apache ORC
+
+- Amazon S3 Lifecycle and Storage Classes
+
+- Apache Spark

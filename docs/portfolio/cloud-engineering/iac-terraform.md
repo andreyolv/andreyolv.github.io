@@ -27,3 +27,17 @@
 - Drift Detection and Control: Used Terraform plans to detect infrastructure drift and enforce the declared desired state.
 
 - Scalable Team Collaboration: Enabled multiple teams to collaborate safely on infrastructure changes through code reviews, approvals, and controlled execution.
+
+## Skills
+- Cloud Engineering
+
+- Infrastructure as Code
+
+- DevOps
+
+- Platform Engineering
+
+## Tools
+- Terraform
+
+- Git

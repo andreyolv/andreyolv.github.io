@@ -82,3 +82,25 @@ Gostaria de reforçar uma prática de segurança em nossa conta AWS de Dados:
 Qualquer dúvida sobre a implementação de Roles, podem procurar.
 
 Contamos com a colaboração de todos para mantermos nosso ambiente seguro!
+
+## Skills
+- Security
+
+- Identity and Access Management
+
+- Cloud Governance
+
+- DevSecOps
+
+## Tools
+- AWS IAM
+
+- AWS IAM Roles (Trust Policy)
+
+- Amazon EC2
+
+- Amazon EKS
+
+- Airbyte
+
+- OpenMetadata

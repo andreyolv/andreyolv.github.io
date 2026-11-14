@@ -87,3 +87,16 @@ Keep the savings and make cost part of how the platform works.
 - Cloud Architecture
 
 - Stakeholder Management
+
+## Tools
+- OpenCost
+
+- Karpenter
+
+- KEDA
+
+- VPA
+
+- Athena
+
+- QuickSight

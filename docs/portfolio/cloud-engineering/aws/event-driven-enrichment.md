@@ -21,3 +21,25 @@
 - Data Normalization & Integration: Built custom logic within Lambda to transform enriched data into the specific contract format required by the Insiders API for customer segmentation.
 
 - Comprehensive Observability: Utilized CloudWatch Logs & Metrics to monitor the entire execution flow, track error rates, and trigger alerts for DLQ message accumulation.
+
+## Skills
+- Cloud Engineering
+
+- Data Streaming
+
+- Security
+
+- Software Engineering
+
+## Tools
+- Amazon API Gateway
+
+- Amazon SQS
+
+- AWS Lambda
+
+- Amazon Athena
+
+- AWS Secrets Manager
+
+- Amazon CloudWatch

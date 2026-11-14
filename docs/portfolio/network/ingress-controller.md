@@ -25,3 +25,17 @@
 - Secure Default Configuration: Applied security best practices including HTTPS enforcement, secure headers, and controlled exposure of services.
 
 - Multi-Tenant Support: Enabled multiple teams and namespaces to expose applications safely while maintaining consistent ingress behavior across the cluster.
+
+## Skills
+- Networking
+
+- Kubernetes
+
+- Platform Engineering
+
+- DevOps
+
+## Tools
+- NGINX Ingress Controller
+
+- Kubernetes

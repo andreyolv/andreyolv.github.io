@@ -30,3 +30,15 @@ camada lake -> spns
 backstage?
 fase projeto -> exprimental, development, production, sustentação, deprecated
 definição de nomes de projetos/produtos
+
+## Skills
+- Data Governance
+
+- Data Engineering
+
+- Platform Engineering
+
+## Tools
+- Backstage
+
+- GitHub

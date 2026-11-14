@@ -29,3 +29,23 @@
 - Optimized Lakehouse Layout: Configured partitioning, file sizing, and commit behavior to reduce small files and improve query performance in the Iceberg lakehouse.
 
 - Analytics-Ready Data: Enabled downstream query engines (Trino, Spark, DuckDB, StarRocks) to consume near real-time data directly from Iceberg tables.
+
+## Skills
+- Data Engineering
+
+- Data Streaming
+
+- Platform Engineering
+
+## Tools
+- Kafka Connect
+
+- Iceberg
+
+- Kubernetes
+
+- Trino
+
+- Spark
+
+- DuckDB

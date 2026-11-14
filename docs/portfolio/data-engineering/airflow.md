@@ -29,3 +29,23 @@
 - Integrated Observability: Exposed Airflow metrics and logs for monitoring task execution, failures, and performance trends.
 
 - Data Platform Integration: Orchestrated end-to-end pipelines including ingestion, transformation, validation, and analytics workloads running inside Kubernetes.
+
+## Skills
+- Data Engineering
+
+- Platform Engineering
+
+- Kubernetes
+
+- DevOps
+
+## Tools
+- Apache Airflow
+
+- Kubernetes
+
+- KubernetesExecutor
+
+- KubernetesPodOperator
+
+- Git

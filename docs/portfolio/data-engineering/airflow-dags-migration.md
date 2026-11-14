@@ -23,3 +23,25 @@
 - Metadata Database Migration: Handled the migration of historical execution states and connection metadata, ensuring that "Backfills" and "Retries" remained consistent.
 
 - Code Modernization: Refactored older PythonOperator tasks into modern TaskFlow API (decorators) where possible, improving code readability and maintainability.
+
+## Skills
+- Data Engineering
+
+- DevOps
+
+- CI/CD
+
+- Software Engineering
+
+## Tools
+- Apache Airflow
+
+- GitHub Actions
+
+- Docker
+
+- Amazon S3
+
+- Amazon EFS
+
+- Python

@@ -20,3 +20,21 @@
 - Automated Credential Lifecycle: Configured IAM password policies to enforce complexity and rotation, integrated with automated auditing to track compliant vs. non-compliant users.
 
 - IAM Identity Center recommended
+
+## Skills
+- Security
+
+- Identity and Access Management
+
+- Cloud Governance
+
+- Cloud Engineering
+
+## Tools
+- AWS IAM
+
+- AWS CloudFormation
+
+- Terraform
+
+- AWS IAM Identity Center

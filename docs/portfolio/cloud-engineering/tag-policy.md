@@ -102,3 +102,21 @@ Use the links below to monitor billing health and tag compliance:
     Mandatory Requirement: Every resource created via Terraform, CloudFormation, or the AWS Console must contain, at a minimum, the team and project tags.
 
     Automation: Resources identified without mandatory tags will be subject to automated notification processes and, in the future, scheduled termination (in non-production environments).
+
+## Skills
+- FinOps
+
+- Cloud Governance
+
+- Cloud Engineering
+
+- DevOps
+
+## Tools
+- Terraform
+
+- AWS CloudFormation
+
+- AWS Management Console
+
+- Amazon EKS

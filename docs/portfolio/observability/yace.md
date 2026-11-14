@@ -25,3 +25,25 @@
 - Unified Alerting with Alertmanager: Integrated CloudWatch metrics into the Prometheus Alertmanager pipeline, ensuring consistent notification routing (Slack) for both EKS and AWS managed services.
 
 - Enhanced Grafana Dashboards: Built unified dashboards that correlate Kubernetes application performance with the underlying AWS managed resources.
+
+## Skills
+- Observability
+
+- Site Reliability Engineering
+
+- Cloud Engineering
+
+- DevOps
+
+## Tools
+- YACE
+
+- Prometheus
+
+- AWS CloudWatch
+
+- Grafana
+
+- Alertmanager
+
+- Slack

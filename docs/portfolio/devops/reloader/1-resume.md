@@ -15,3 +15,13 @@
 - Zero Manual Intervention: Eliminates the need for developers or operators to manually restart pods after configuration updates, ensuring changes are instantly applied across the cluster.
 
 - Consistency and Reliability: Guarantees that running workloads always reflect the latest configuration or secret state, maintaining consistency between declared configurations and running applications.
+
+## Skills
+- DevOps
+
+- Platform Engineering
+
+## Tools
+- Kubernetes
+
+- Reloader

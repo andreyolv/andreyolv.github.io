@@ -27,3 +27,19 @@
 Transit Gateway, privatelinks, private and public DNS
 hub and spoke, firewall, 
 1 iac repo dev, 1 repo iac prd
+
+## Skills
+- Cloud Networking
+
+- Cloud Architecture
+
+- Cloud Engineering
+
+- Kubernetes
+
+## Tools
+- Kubernetes
+
+- AWS Transit Gateway
+
+- AWS PrivateLink

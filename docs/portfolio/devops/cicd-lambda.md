@@ -27,3 +27,21 @@
 - Transparent Change Auditing: Enabled a clear audit trail where every AWS Lambda update is mapped back to a GitHub SHA, providing full visibility into "Who, What, and When."
 
 - Console Access Restriction: Tightened IAM policies to prevent manual code edits in the AWS Lambda Console, enforcing the "Pipeline-Only" deployment rule.
+
+## Skills
+- DevOps
+
+- CI/CD
+
+- DevSecOps
+
+- Infrastructure as Code
+
+## Tools
+- GitHub Actions
+
+- AWS Lambda
+
+- SAM
+
+- Terraform

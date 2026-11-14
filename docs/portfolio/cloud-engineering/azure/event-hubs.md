@@ -23,3 +23,21 @@
 - Scalable Throughput Units: Optimized the Event Hub with Auto-Inflate enabled to handle sudden bursts of audit logs during high-volume data processing windows.
 
 - Integration with Downstream Tools: Enabled the integration with Splunk/Microsoft Sentinel or custom consumers to analyze "Who, When, and How" data was accessed at the object level.
+
+## Skills
+- Cloud Engineering
+
+- Data Streaming
+
+- Security
+
+- Observability
+
+## Tools
+- Azure Event Hubs
+
+- Azure Data Lake Storage (ADLS Gen2)
+
+- Splunk
+
+- Microsoft Sentinel

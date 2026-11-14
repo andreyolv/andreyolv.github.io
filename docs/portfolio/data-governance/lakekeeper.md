@@ -19,3 +19,23 @@
 - Governance and Access Control: Implemented centralized policies for table ownership and access, improving data governance and operational control.
 
 - Operational Standardization: Decoupled metadata management from compute engines, simplifying upgrades, scaling, and maintenance.
+
+## Skills
+- Data Governance
+
+- Data Engineering
+
+- Platform Engineering
+
+- Databases
+
+## Tools
+- Lakekeeper
+
+- Apache Iceberg
+
+- Apache Spark
+
+- Trino
+
+- Apache Flink

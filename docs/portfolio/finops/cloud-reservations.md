@@ -20,3 +20,14 @@
 - Cloud Computing
 
 - FinOps
+
+## Tools
+- Azure Kubernetes Service (AKS)
+
+- Azure Database for PostgreSQL
+
+- Azure Files
+
+- Azure Storage
+
+- Databricks

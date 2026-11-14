@@ -25,3 +25,13 @@
 - Cost and Performance Optimization: Achieved lower cost per vCPU while maintaining comparable or improved performance for supported workloads.
 
 - Production-Grade Validation: Validated observability, autoscaling, reliability, and operational stability for ARM-based workloads in production environments.
+
+## Skills
+- FinOps
+
+- Cloud Engineering
+
+- Kubernetes
+
+## Tools
+- Kubernetes

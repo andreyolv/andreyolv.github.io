@@ -23,3 +23,17 @@
 - Integrated Visualizations: Displayed model outputs, metrics, and data visualizations directly within the app, improving interpretability and stakeholder understanding.
 
 - Improved Collaboration: Enabled cross-functional teams to interact with models directly, reducing dependency on engineers for running and interpreting results.
+
+## Skills
+- MLOps
+
+- Platform Engineering
+
+- Kubernetes
+
+- Software Engineering
+
+## Tools
+- Streamlit
+
+- Kubernetes

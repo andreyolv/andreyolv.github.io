@@ -21,3 +21,15 @@
 - Direct Serving for Applications and Dashboards: Exposed StarRocks queries directly to dashboards and backend APIs, enabling real-time analytics consumption without intermediate caching layers.
 
 - Scalable and Predictable Architecture: Deployed StarRocks in a horizontally scalable setup, ensuring consistent performance as data volume and query concurrency grow.
+
+## Skills
+- Data Engineering
+
+- Data Streaming
+
+- Analytics Engineering
+
+## Tools
+- StarRocks
+
+- Kafka

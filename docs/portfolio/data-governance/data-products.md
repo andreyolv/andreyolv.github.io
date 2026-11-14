@@ -25,3 +25,15 @@
 - Cross-Team Alignment: Standardization enables consistent consumption patterns, reduces transformation work, and promotes interoperability between teams.
 
 - Foundation for Data Mesh: Provides a repeatable, governed framework for building self-service, product-oriented data architectures at scale.
+
+## Skills
+- Data Governance
+
+- Data Engineering
+
+- Data Quality
+
+- Analytics Engineering
+
+## Tools
+- OpenMetadata

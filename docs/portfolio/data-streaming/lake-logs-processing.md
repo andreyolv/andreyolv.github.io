@@ -21,3 +21,17 @@
 - Event Filtering & Schema Enforcement: Applied real-time transformations to filter out low-risk events and normalize the schema, focusing on high-impact actions like SetAccessControl and Delete.
 
 - Optimized Sink Integration: Configured the processed and aggregated results to be saved into a Delta Lake table for fast forensic querying and long-term compliance reporting.
+
+## Skills
+- Data Engineering
+
+- Data Streaming
+
+- Security
+
+## Tools
+- Spark Streaming
+
+- Azure Event Hubs
+
+- Delta Lake

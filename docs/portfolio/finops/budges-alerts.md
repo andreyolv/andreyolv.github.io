@@ -25,3 +25,19 @@
 - Governance and Cost Awareness: Established cost guardrails that promote financial accountability without blocking innovation or delivery velocity.
 
 - Scalable and Cloud-Agnostic Design: Designed the solution to work across different environments and providers, independent of a specific cloud vendor.
+
+## Skills
+- FinOps
+
+- Cloud Engineering
+
+- Cloud Governance
+
+## Tools
+- Cloud cost exporters
+
+- Prometheus
+
+- Alertmanager
+
+- Grafana

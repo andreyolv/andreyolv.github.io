@@ -23,3 +23,25 @@
 - Managed Identities & Service Principals: Eliminated the use of personal tokens by implementing Managed Identities for secure, passwordless access to Azure Data Lake (ADLS Gen2).
 
 - Network Security Groups (NSG): Applied strict NSG rules to the Databricks subnets, restricting communication only to necessary Azure services and blocking all other lateral movement.
+
+## Skills
+- Cloud Engineering
+
+- Security
+
+- Identity and Access Management
+
+- Cloud Networking
+
+## Tools
+- Azure Databricks
+
+- Azure Data Lake Storage (ADLS Gen2)
+
+- Azure Private Link
+
+- Unity Catalog
+
+- Azure Virtual Network (VNet)
+
+- Network Security Groups (NSG)
