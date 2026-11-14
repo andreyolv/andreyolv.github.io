@@ -43,6 +43,3 @@
 - OpenMetadata
 
 - SQL
-
-static data masking (SDM) and dynamic data masking (DDM)
-CLS https://learn.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/column-level-security

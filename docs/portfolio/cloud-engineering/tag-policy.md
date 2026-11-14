@@ -79,13 +79,12 @@ Defines the technical team responsible for the resource and its associated cost.
 
     martech: Marketing integrations, CDPs.
 
-    tech: General tech services used within the data account (e.g., Redshift Clickbus Insights).
 
 3.2. Key: project
 
 Defines the specific initiative, product, or application. This tag is dynamic but must be short and descriptive.
 
-    Project Examples: clickbus-insights, fipe, observo.
+    Project Examples: abc, xyz, 123.
 
     To Do: A complete list of all possibilities needs to be formally defined.
 

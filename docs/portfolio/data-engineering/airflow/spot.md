@@ -35,7 +35,7 @@ As VMs não spot utilizadas hoje são provisionadas com bastante recurso e isso 
 
 Se uma carga usar muito mais do que requisitar utlizando VM Spot há um grande risco da carga quebrar, pois na requisição inicial foi pedido uma quantidade de recurso, mas a carga precisa usar mais do que existe de recurso na VM em que foi alocada.
 
-Para evitar isso é bom acompanhar o dashboard no grafana Recursos Cluster PRD - Namespace - Dashboards - Grafana (raizen.ai) em que mostra a diferença entre recurso solicitado e usado e fazer as correções necessárias.
+Para evitar isso é bom acompanhar o dashboard no grafana Recursos Cluster PRD - Namespace - Dashboards - Grafana em que mostra a diferença entre recurso solicitado e usado e fazer as correções necessárias.
 
 ### Aumentar recursos em cargas de longa duração
 No caso de cargas em que a solicitação de recurso seja inversamente proporcional ao tempo de execução, é possível aumentar a solicitação de recursos para que a carga execute mais rápido e tenha menos risco de interrupção da VM Spot.

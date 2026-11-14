@@ -46,7 +46,7 @@ KubernetesExecutor
 Exemplo:
 executor_config = {
     'KubernetesExecutor': {
-        'image' : 'raizenanalyticsdev.azurecr.io/fenix-airflow',
+        'image' : 'xxxxxx.azurecr.io/fenix-airflow',
         'namespace': 'dataops-airflow',
         'request_memory' : '100Mi',
         'request_cpu': '0.1'
