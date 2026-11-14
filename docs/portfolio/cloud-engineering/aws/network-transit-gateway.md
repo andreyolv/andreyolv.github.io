@@ -28,15 +28,24 @@
 
 ## Skills
 - Cloud Networking
+
 - Cloud Architecture
+
 - Cloud Engineering
+
 - FinOps
 
 ## Tools
 - AWS Transit Gateway
+
 - Amazon VPC and VPC IPAM
+
 - AWS Site-to-Site VPN and Direct Connect
+
 - Amazon Route 53 Resolver
+
 - AWS Network Firewall
+
 - AWS RAM
+
 - Terraform

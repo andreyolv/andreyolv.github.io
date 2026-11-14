@@ -16,6 +16,7 @@
 
 - Source Preparation: Prepared each engine for log-based CDC and created a dedicated least-privilege replication user per source:
   - PostgreSQL: logical replication enabled (`rds.logical_replication` / `wal_level = logical`) with DMS reading the WAL through a replication slot, monitored so an idle or failed task does not let the slot retain WAL until the disk fills.
+
   - MySQL: binary logging in `ROW` format with `binlog_row_image = FULL` and binlog retention long enough to cover task restarts and maintenance windows.
 
 - S3 Target in Parquet: Wrote changes to S3 as Parquet, partitioned by date, with the `Op` column (insert, update, delete) and the commit timestamp on every record, so downstream jobs know the order and the type of each change.
@@ -32,17 +33,28 @@
 
 ## Skills
 - Data Engineering
+
 - Data Streaming
+
 - Databases
+
 - Cloud Engineering
+
 - Security
 
 ## Tools
 - AWS Database Migration Service (DMS)
+
 - PostgreSQL
+
 - MySQL
+
 - Amazon S3
+
 - Apache Spark
+
 - AWS Secrets Manager
+
 - Amazon CloudWatch
+
 - Terraform

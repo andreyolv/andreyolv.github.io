@@ -28,13 +28,20 @@
 
 ## Skills
 - Cloud Networking
+
 - Cloud Engineering
+
 - Security
+
 - Software Engineering
 
 ## Tools
 - Amazon API Gateway
+
 - AWS PrivateLink (Interface VPC Endpoints)
+
 - Amazon Route 53 (Private Hosted Zones and Resolver)
+
 - AWS Certificate Manager
+
 - Terraform

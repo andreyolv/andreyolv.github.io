@@ -24,12 +24,18 @@
 
 ## Skills
 - Security
+
 - DevSecOps
+
 - CI/CD
 
 ## Tools
 - Harden-Runner (StepSecurity)
+
 - Github Actions
+
 - OpenSSF Scorecard
+
 - Renovate
+
 - zizmor

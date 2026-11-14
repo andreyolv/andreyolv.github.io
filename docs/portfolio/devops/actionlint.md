@@ -24,12 +24,18 @@
 
 ## Skills
 - DevOps
+
 - CI/CD
 
 ## Tools
 - actionlint
+
 - Github Actions
+
 - shellcheck
+
 - pre-commit
+
 - reviewdog
+
 - Renovate

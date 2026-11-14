@@ -32,14 +32,22 @@
 
 ## Skills
 - DevOps
+
 - Platform Engineering
+
 - CI/CD
 
 ## Tools
 - flux-schema
+
 - Flux
+
 - Kubernetes
+
 - Helm
+
 - Kustomize
+
 - Github Actions
+
 - pre-commit

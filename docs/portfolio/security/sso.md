@@ -25,10 +25,17 @@
 
 ## Tools
 - Azure Entra ID
+
 - Grafana
+
 - Airflow
+
 - Pomerium
+
 - Backstage
+
 - Kafka UI
+
 - Trino
+
 - Kubernetes

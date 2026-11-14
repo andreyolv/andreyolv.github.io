@@ -8,7 +8,9 @@ Duplicated workflows across repositories create drift, increase maintenance effo
 
 Key drivers:
 - CI/CD changes must be rolled out safely without forcing all repos to upgrade at once.
+
 - Security posture depends on consistent `permissions:` and secret handling.
+
 - Operational efficiency improves when fixes are implemented once.
 
 ## Decision
@@ -16,6 +18,9 @@ Centralize reusable workflows and composite actions with strict versioning and g
 
 ## Consequences
 - Less duplication and faster standardization.
+
 - Requires ownership and a release process for workflow repositories.
+
 - Consumers must manage version bumps to receive updates.
+
 - Canary consumers become important to prevent regressions.

@@ -31,15 +31,23 @@
 ## Skills
 
 - Security
+
 - DevSecOps
+
 - Cloud
+
 - FinOps
 
 ## Tools
 
 - Prowler
+
 - AWS
+
 - Microsoft Azure
+
 - Google Cloud
+
 - CIS Benchmarks
+
 - GitHub Actions

@@ -30,15 +30,24 @@
 
 ## Skills
 - Security
+
 - Identity and Access Management
+
 - Cloud Governance
+
 - Cloud Engineering
 
 ## Tools
 - AWS IAM Identity Center
+
 - AWS Organizations
+
 - SAML 2.0 and SCIM
+
 - Microsoft Entra ID
+
 - AWS CLI
+
 - AWS CloudTrail
+
 - Terraform

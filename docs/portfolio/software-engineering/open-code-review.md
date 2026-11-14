@@ -28,13 +28,20 @@
 
 ## Skills
 - Software Engineering
+
 - DevSecOps
+
 - CI/CD
+
 - AI Engineering
 
 ## Tools
 - Open Code Review
+
 - Github Actions
+
 - Harden-Runner (StepSecurity)
+
 - actionlint
+
 - zizmor

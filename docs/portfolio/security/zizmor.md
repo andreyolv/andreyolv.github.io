@@ -26,12 +26,18 @@
 
 ## Skills
 - Security
+
 - DevSecOps
+
 - CI/CD
 
 ## Tools
 - zizmor
+
 - Github Actions
+
 - GitHub Advanced Security (SARIF)
+
 - Renovate
+
 - actionlint

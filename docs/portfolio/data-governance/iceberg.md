@@ -2,30 +2,44 @@
 
 ## Problem
 - Inconsistent Table Structures: Without a standardized format, tables in the lakehouse often have different schemas, partitioning, and metadata management, leading to operational complexity.
+
 - Query Performance Issues: Non-uniform table formats reduce performance for analytics engines and complicate optimizations such as pruning and vectorized reads.
+
 - Governance and Compliance Challenges: Lack of standardization makes it difficult to enforce data quality, security, and access policies consistently across datasets.
+
 - Integration Complexity: Data processing tools (Spark, Trino, DuckDB) may struggle with inconsistent table definitions, requiring additional transformations or manual intervention.
 
 ## Solution
 - Inconsistent Table Structures: Without a standardized format, tables in the lakehouse often have different schemas, partitioning, and metadata management, leading to operational complexity.
+
 - Query Performance Issues: Non-uniform table formats reduce performance for analytics engines and complicate optimizations such as pruning and vectorized reads.
+
 - Governance and Compliance Challenges: Lack of standardization makes it difficult to enforce data quality, security, and access policies consistently across datasets.
+
 - Integration Complexity: Data processing tools (Spark, Trino, DuckDB) may struggle with inconsistent table definitions, requiring additional transformations or manual intervention.
 
 ## Skills
 
 - Data Governance
+
 - Data Engineering
+
 - Data Lakehouse
 
 ## Tools
 
 - Apache Iceberg
+
 - Apache Spark
+
 - Trino
+
 - DuckDB
+
 - Hive Metastore
+
 - Kafka Connect
+
 - Debezium
 
 hive metastore to iceberg, test other alternatives to hms

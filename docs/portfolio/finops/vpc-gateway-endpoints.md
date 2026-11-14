@@ -30,15 +30,24 @@
 
 ## Skills
 - FinOps
+
 - Cloud Engineering
+
 - Cloud Networking
+
 - Security
 
 ## Tools
 - Amazon VPC Gateway Endpoints
+
 - AWS NAT Gateway
+
 - Amazon S3
+
 - Amazon DynamoDB
+
 - VPC Flow Logs
+
 - AWS Cost and Usage Report and Cost Explorer
+
 - Terraform

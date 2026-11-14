@@ -30,14 +30,22 @@
 
 ## Skills
 - DevOps
+
 - Security
+
 - Governance
+
 - Platform Engineering
 
 ## Tools
 - GitHub
+
 - GitHub REST and GraphQL API
+
 - GitHub Teams and CODEOWNERS
+
 - Microsoft Entra ID
+
 - Terraform (integrations/github provider)
+
 - Python

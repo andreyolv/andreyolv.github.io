@@ -24,10 +24,14 @@
 
 ## Skills
 - Data Engineering
+
 - Platform Engineering
+
 - Observability
 
 ## Tools
 - Apache Airflow (cluster policies, callbacks)
+
 - Python
+
 - Kubernetes

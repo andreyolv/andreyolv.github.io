@@ -14,11 +14,16 @@
 
 ## Skills
 - Site Reliability Engineering
+
 - Security
+
 - Cloud Computing
+
 - DevOps
 
 ## Tools
 - Hashicorp Vault / Azure Key Vault
+
 - External Secrets Operator
+
 - Kubernetes

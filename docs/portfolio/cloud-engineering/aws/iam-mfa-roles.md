@@ -20,8 +20,11 @@
 
 - IAM Roles for Every Workload: Replaced each personal key with a dedicated role and a trust policy restricted to its exact origin, following the [AWS credential standard](iam-security.md):
   - Kubernetes workloads on EKS with Pod Identity and IRSA, bound to one ServiceAccount in one namespace ([workload identity](../../security/workload-identity.md)).
+
   - EC2 and EMR with instance profiles.
+
   - Lambda with execution roles.
+
   - GitHub Actions with OIDC federation, restricted by repository and branch in the trust policy, so CI/CD stores no AWS secret.
 
 - Least Privilege per Workload: Each role received only the permissions its workload uses, so the blast radius of a compromised job is that job, not the engineer who used to own the key.
@@ -32,14 +35,22 @@
 
 ## Skills
 - Security
+
 - Identity and Access Management
+
 - Cloud Engineering
+
 - DevOps
 
 ## Tools
 - AWS IAM
+
 - AWS STS
+
 - Amazon EKS Pod Identity and IRSA
+
 - GitHub Actions OIDC
+
 - AWS CloudTrail
+
 - Terraform

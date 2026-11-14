@@ -5,12 +5,15 @@
 
 ## Solution
 - Pomerium Ingress Controller: Implemented Pomerium, an open-source identity-aware proxy, to streamline secure access to internal applications and services across Ingress Controller URLs. Pomerium’s integration with identity providers (IDPs) and its ability to enforce fine-grained access policies aligned with Zero Trust principles.
+
 - Granular Access Control: Configured Pomerium to enforce strict access controls, ensuring that only authorized users can access specific Ingress Controller URLs. Simplified access management through Ingress annotations linked to Entra ID groups.
 
 ## Skills
 - DevOps
+
 - Security
 
 ## Tools
 - Entra ID
+
 - Pomerium

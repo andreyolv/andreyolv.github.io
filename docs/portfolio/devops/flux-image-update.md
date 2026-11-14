@@ -16,12 +16,18 @@
 
 ## Skills
 - DevOps
+
 - Platform Engineering
+
 - GitOps
 
 ## Tools
 - Docker
+
 - Flux
+
 - Github Actions
+
 - Azure Container Registry
+
 - Kubernetes

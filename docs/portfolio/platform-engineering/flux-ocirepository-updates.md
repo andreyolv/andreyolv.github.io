@@ -34,12 +34,18 @@
 
 ## Skills
 - Platform Engineering
+
 - GitOps
+
 - DevOps
 
 ## Tools
 - Renovate
+
 - Flux
+
 - Kubernetes
+
 - Helm
+
 - GitHub

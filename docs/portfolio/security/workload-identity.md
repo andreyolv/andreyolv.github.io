@@ -2,38 +2,60 @@
 
 ## Problem
 - Secret-Based Authentication Risks: Applications running in Kubernetes often rely on static secrets (tokens, keys, credentials), increasing the risk of leaks and credential sprawl.
+
 - Credential Rotation Overhead: Manually rotating secrets across multiple workloads and namespaces is operationally complex and error-prone.
+
 - Over-Privileged Access: Shared credentials make it difficult to enforce least-privilege access at the workload level.
+
 - Poor Auditability: Mapping cloud or infrastructure access back to specific Kubernetes workloads is difficult when using shared service accounts or static - credentials.
+
 - Security Gaps in Multi-Cluster Environments: Managing credentials consistently across multiple clusters increases complexity and security risk.
 
 ## Solution
 - Workload Identity for Kubernetes: Implemented workload identity to allow Kubernetes workloads to authenticate using their native ServiceAccount identity, - eliminating the need for static secrets.
+
 - Pod-Level Identity Mapping: Bound Kubernetes ServiceAccounts directly to infrastructure or platform identities, enabling fine-grained, least-privilege - access per workload.
+
 - Short-Lived Credentials: Leveraged token exchange mechanisms to issue short-lived credentials dynamically, reducing the blast radius of compromised - identities.
+
 - Improved Security Posture: Removed long-lived secrets from manifests, ConfigMaps, and CI/CD pipelines.
+
 - Audit and Traceability: Enabled clear traceability between infrastructure access and the originating Kubernetes workload for auditing and compliance.
+
 - Multi-Cluster Ready: Standardized identity patterns across clusters to ensure consistent security controls and simplified operations.
+
 - Seamless Application Integration: Applications authenticate transparently without code changes, relying on Kubernetes-native identity mechanisms.
 
 ## Skills
 
 - Security
+
 - DevOps
+
 - Platform Engineering
+
 - Cloud
+
 - Kubernetes
 
 ## Tools
 
 - Microsoft Entra Workload ID
+
 - AWS EKS Pod Identity
+
 - Kubernetes
+
 - Backstage
+
 - Crossplane
+
 - Microsoft Azure
+
 - Terraform
+
 - Apache Airflow
+
 - dbt
 
 solicitação de criação de projeto por backstage

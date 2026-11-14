@@ -14,10 +14,14 @@
 
 ## Skills
 - Security
+
 - DevSecOps
+
 - DevOps
 
 ## Tools
 - Trivy
+
 - Docker
+
 - Github Actions

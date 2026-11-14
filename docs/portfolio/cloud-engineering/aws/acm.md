@@ -26,13 +26,20 @@
 
 ## Skills
 - Security
+
 - Cloud Engineering
+
 - Cloud Networking
 
 ## Tools
 - AWS Certificate Manager (ACM)
+
 - Amazon Route 53
+
 - Elastic Load Balancing, CloudFront and API Gateway
+
 - Amazon EventBridge
+
 - cert-manager
+
 - Terraform

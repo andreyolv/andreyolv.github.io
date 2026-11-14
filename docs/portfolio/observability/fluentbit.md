@@ -20,10 +20,14 @@
 
 ## Skills
 - DevOps
+
 - Site Reliability Engineering
+
 - Observability
 
 ## Tools
 - Loki
+
 - Grafana
+
 - Fluentbit

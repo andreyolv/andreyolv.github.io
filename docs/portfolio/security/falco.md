@@ -20,13 +20,20 @@
 
 ## Skills
 - Security
+
 - DevSecOps
+
 - Platform Engineering
 
 ## Tools
 - Falco
+
 - Falcosidekick
+
 - eBPF
+
 - Kubernetes
+
 - Flux
+
 - Prometheus

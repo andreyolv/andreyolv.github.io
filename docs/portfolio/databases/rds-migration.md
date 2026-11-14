@@ -28,15 +28,24 @@
 
 ## Skills
 - Databases
+
 - Cloud Engineering
+
 - FinOps
+
 - Site Reliability Engineering
 
 ## Tools
 - Amazon RDS (PostgreSQL and MySQL)
+
 - RDS Blue/Green Deployments
+
 - RDS Read Replicas and Snapshots
+
 - AWS DMS
+
 - Amazon Route 53
+
 - Amazon CloudWatch
+
 - Terraform

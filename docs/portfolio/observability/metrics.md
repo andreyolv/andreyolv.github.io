@@ -28,12 +28,16 @@
 
 ## Skills
 - DevOps
+
 - Site Reliability Engineering
+
 - Observability
 
 ## Tools
 - Prometheus
+
 - Grafana
+
 - Kubernetes
 
 armazenar apenas métricas importantes, o resto dropar com justificativa. malha fina, porém sem muito valor agregado, mas o ideal

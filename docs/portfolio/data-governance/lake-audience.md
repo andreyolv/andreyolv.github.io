@@ -2,29 +2,42 @@
 
 ## Problem
 - Untracked Access: Lack of visibility into who accesses what data in the DataLake, leading to potential security gaps and compliance risks.
+
 - Compliance Requirements: Regulatory frameworks (e.g., GDPR, HIPAA) require detailed auditing of data access, which is difficult without centralized tracking.
+
 - Unauthorized Access: Without monitoring, improper or malicious access to sensitive datasets can go undetected.
+
 - Operational Inefficiency: Investigating access incidents or generating compliance reports is time-consuming and error-prone when logs are scattered or incomplete.
 
 ## Solution
 - Untracked Access: Lack of visibility into who accesses what data in the DataLake, leading to potential security gaps and compliance risks.
+
 - Compliance Requirements: Regulatory frameworks (e.g., GDPR, HIPAA) require detailed auditing of data access, which is difficult without centralized tracking.
+
 - Unauthorized Access: Without monitoring, improper or malicious access to sensitive datasets can go undetected.
+
 - Operational Inefficiency: Investigating access incidents or generating compliance reports is time-consuming and error-prone when logs are scattered or incomplete.
 
 ## Skills
 
 - Data Governance
+
 - Security
+
 - Cloud
+
 - Observability
 
 ## Tools
 
 - Microsoft Azure
+
 - Azure Synapse Analytics
+
 - Azure Data Lake Storage
+
 - Microsoft Entra ID
+
 - Azure RBAC
 
 locais e frequencia de acessos | semelhante existe databricks

@@ -20,11 +20,16 @@
 
 ## Skills
 - Data Engineering
+
 - DevOps
+
 - Platform Engineering
 
 ## Tools
 - Trino
+
 - Hive
+
 - Kubernetes
+
 - Microsoft Entra ID

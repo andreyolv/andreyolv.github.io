@@ -28,13 +28,20 @@
 
 ## Skills
 - Software Engineering
+
 - DevOps
+
 - Security
+
 - Cloud Engineering
 
 ## Tools
 - AWS CodeArtifact
+
 - GitHub Actions (OIDC)
+
 - pip, uv, poetry and npm
+
 - AWS PrivateLink
+
 - Terraform

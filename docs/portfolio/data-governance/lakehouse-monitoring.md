@@ -32,20 +32,34 @@
 
 ## Skills
 - Data Engineering
+
 - Data Governance
+
 - Lakehouse Architecture
+
 - Platform Engineering
+
 - Observability
 
 ## Tools
 - Apache Iceberg
+
 - PyIceberg
+
 - DuckDB
+
 - PostgreSQL
+
 - CloudNativePG
+
 - MinIO
+
 - External Secrets
+
 - OpenBao
+
 - Kubernetes
+
 - Prometheus
+
 - Python

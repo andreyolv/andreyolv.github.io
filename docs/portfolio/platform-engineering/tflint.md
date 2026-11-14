@@ -40,14 +40,22 @@
 
 ## Skills
 - Platform Engineering
+
 - Infrastructure as Code
+
 - DevOps
+
 - CI/CD
 
 ## Tools
 - TFLint
+
 - Terraform
+
 - OpenTofu
+
 - GitHub Actions
+
 - pre-commit
+
 - AWS

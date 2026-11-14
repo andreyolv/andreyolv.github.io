@@ -13,8 +13,10 @@
 
 ## Skills
 - Security
+
 - DevOps
 
 ## Tools
 - Kubernetes
+
 - Kubescape

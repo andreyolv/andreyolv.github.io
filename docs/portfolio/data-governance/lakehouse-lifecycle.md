@@ -32,12 +32,18 @@
 
 ## Skills
 - Data Governance
+
 - Data Engineering
+
 - FinOps
 
 ## Tools
 - Apache Iceberg (expire_snapshots, remove_orphan_files, rewrite_data_files, rewrite_manifests)
+
 - Apache Spark
+
 - Trino
+
 - Amazon S3
+
 - Apache Airflow

@@ -28,14 +28,22 @@
 
 ## Skills
 - Data Engineering
+
 - Data Governance
+
 - Platform Engineering
+
 - FinOps
 
 ## Tools
 - Apache Airflow
+
 - Airflow REST API and metadata database
+
 - Kubernetes
+
 - Amazon Athena
+
 - Python
+
 - GitHub

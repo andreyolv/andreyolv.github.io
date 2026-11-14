@@ -20,14 +20,22 @@
 
 ## Skills
 - Data Engineering
+
 - Data Streaming
+
 - DevOps
 
 ## Tools
 - Apache Kafka
+
 - Kafka Connect
+
 - Debezium
+
 - Schema Registry
+
 - Docker
+
 - Kubernetes
+
 - Kafka UI

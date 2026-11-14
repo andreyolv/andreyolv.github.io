@@ -32,14 +32,22 @@
 
 ## Skills
 - Security
+
 - Cloud Governance
+
 - Cloud Engineering
+
 - Data Engineering
 
 ## Tools
 - AWS CloudTrail and CloudTrail Insights
+
 - AWS Organizations
+
 - Amazon S3 and AWS KMS
+
 - Amazon Athena
+
 - Amazon EventBridge
+
 - Terraform

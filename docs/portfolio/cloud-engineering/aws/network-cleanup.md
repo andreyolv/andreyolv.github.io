@@ -30,14 +30,22 @@
 
 ## Skills
 - Cloud Networking
+
 - Security
+
 - Cloud Engineering
+
 - FinOps
 
 ## Tools
 - Amazon VPC and Security Groups
+
 - VPC Flow Logs
+
 - AWS CloudTrail
+
 - Amazon CloudWatch
+
 - Prowler
+
 - Terraform

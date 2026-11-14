@@ -19,4 +19,4 @@
 - Faster Time to Insight: Reduced the average time to onboard new data sources from days to hours, enabling analysts to iterate faster and collaborate across teams using a shared ingestion layer.
 
 ## Future Improvements
-SSO Integration: Plan to integrate Single Sign-On (SSO) using providers like OAuth2, Entra ID, simplifying access management and ensuring seamless and secure authentication for users across the organization. Não possível não versão OpenSource.
+- SSO Integration: Plan to integrate Single Sign-On (SSO) using providers like OAuth2, Entra ID, simplifying access management and ensuring seamless and secure authentication for users across the organization. Não possível não versão OpenSource.

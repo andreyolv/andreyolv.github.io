@@ -26,13 +26,20 @@
 
 ## Skills
 - Security
+
 - DevSecOps
+
 - DevOps
 
 ## Tools
 - Renovate
+
 - Github
+
 - Github Actions
+
 - Docker
+
 - Terraform
+
 - Flux

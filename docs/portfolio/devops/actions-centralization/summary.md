@@ -31,32 +31,45 @@
 
 ## Tools
 - Github Actions
+
 - Hadolint
 
 ## Docs
 
 ### Planning
 - [Business Case](planning/business-case.md)
+
 - [PoC](planning/poc.md)
+
 - [RFC](planning/rfc.md)
+
 - [Roadmap](planning/roadmap.md)
+
 - [Tech Debt](planning/tech-debt.md)
 
 ### Tech
 - [Project](tech/project.md)
+
 - [ADR](tech/adr.md)
 
 ### Ops
 - [Observability](ops/observability.md)
+
 - [Playbook](ops/playbook.md)
+
 - [Runbook](ops/runbook.md)
+
 - [Upgrades](ops/upgrades.md)
+
 - [Recovery](ops/recovery.md)
 
 ### User Guide
 - [Policies](user-guide/policies.md)
+
 - [Reference](user-guide/reference.md)
+
 - [Catalog](user-guide/catalog.md)
+
 - [FAQ](user-guide/faq.md)
 
 

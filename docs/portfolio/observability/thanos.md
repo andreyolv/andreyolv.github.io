@@ -25,16 +25,25 @@
 ## Skills
 
 - Observability
+
 - Site Reliability Engineering
+
 - DevOps
+
 - FinOps
 
 ## Tools
 
 - Thanos
+
 - Prometheus
+
 - Amazon S3
+
 - Kubernetes
+
 - Helm
+
 - Grafana
+
 - Flux

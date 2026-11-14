@@ -5,4 +5,3 @@ du -h --max-depth=1 | sort -rh
 ls -la 
 
 find . -type f | awk -F/ '{print $2}' | sort | uniq -c | sort -nr
-

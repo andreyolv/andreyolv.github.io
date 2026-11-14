@@ -34,14 +34,22 @@
 
 ## Skills
 - Cloud Engineering
+
 - Infrastructure as Code
+
 - Platform Engineering
+
 - DevOps
 
 ## Tools
 - Terraform
+
 - AWS Provider
+
 - Amazon S3 and DynamoDB (remote state and locking)
+
 - TFLint
+
 - pre-commit
+
 - GitHub Actions

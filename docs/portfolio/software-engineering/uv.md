@@ -2,18 +2,28 @@
 
 ## Problem
 - Slow Dependency Installation: Traditional Python package management with pip can be slow, especially when resolving and installing large dependency trees.
+
 - Reproducibility Challenges: Ensuring consistent environments across teams and CI/CD pipelines can be error-prone with pip and requirements.txt alone.
+
 - Complexity in Private Package Management: Managing internal Python packages securely and efficiently often requires extra tooling or custom index servers.
+
 - Environment Isolation: Conflicts between package versions across projects can lead to runtime errors and debugging complexity.
+
 - Limited Observability of Installs: Pip provides minimal insight into dependency resolution performance and failure points.
 
 ## Solution
 - UV as a Modern Package Manager: Adopted UV to manage Python dependencies, providing faster, deterministic installations and reproducible environments.
+
 - Consistent Dependency Resolution: Leveraged UV’s lockfile system to ensure exact package versions across development, CI/CD, and production environments.
+
 - Private Package Support: Integrated UV with internal artifact repositories for secure distribution of proprietary Python packages.
+
 - Enhanced Environment Isolation: Combined UV with virtual environments to prevent version conflicts and ensure predictable runtime behavior.
+
 - Improved Performance and Observability: Reduced installation times compared to pip and gained better insights into dependency resolution processes.
+
 - CI/CD and Kubernetes Integration: Integrated UV in Kubernetes-based CI/CD pipelines, enabling consistent Python environments across ephemeral pods.
+
 - Developer Productivity Boost: Simplified onboarding for new team members and reduced debugging caused by dependency issues.
 
 O pip freeze não gera uma árvore de dependências estruturada — ele apenas lista tudo que está instalado no ambiente, incluindo dependências diretas e subdependências, sem distinção.
@@ -91,24 +101,34 @@ With requirements.txt, you need to use multiple tools (pip, virtualenv, setuptoo
 
 1. Dependency resolution
 
-Pip: Simple, linear dependency resolution that can lead to conflicts
-Poetry: Advanced dependency resolver that prevents conflicts before installation
+- Pip: Simple, linear dependency resolution that can lead to conflicts
+
+- Poetry: Advanced dependency resolver that prevents conflicts before installation
+
 2. Virtual environment management
 
-Pip: Requires separate tools (virtualenv, venv) and manual activation
-Poetry: Automatically creates and manages virtual environments per project
+- Pip: Requires separate tools (virtualenv, venv) and manual activation
+
+- Poetry: Automatically creates and manages virtual environments per project
+
 3. Project configuration
 
-Pip: Uses requirements.txt for dependencies, setup.py for project metadata
-Poetry: Single pyproject.toml file for all configuration needs
+- Pip: Uses requirements.txt for dependencies, setup.py for project metadata
+
+- Poetry: Single pyproject.toml file for all configuration needs
+
 4. Lock files
 
-Pip: No built-in lock file support
-Poetry: Generates poetry.lock for reproducible builds across environments
+- Pip: No built-in lock file support
+
+- Poetry: Generates poetry.lock for reproducible builds across environments
+
 5. Package publishing
 
-Pip: Requires additional tools (twine, setuptools) for publishing
-Poetry: Built-in commands for building and publishing packages
+- Pip: Requires additional tools (twine, setuptools) for publishing
+
+- Poetry: Built-in commands for building and publishing packages
+
 
 ✅ Vantagens do Poetry sobre pip-tools
 Critério	Poetry	pip-tools
@@ -194,17 +214,25 @@ Documentação clara, comunidade ativa e adoção crescente no ecossistema Pytho
 ## Skills
 
 - Software Engineering
+
 - DevOps
+
 - Platform Engineering
 
 ## Tools
 
 - uv
+
 - Python
+
 - pip
+
 - virtualenv
+
 - Docker
+
 - Kubernetes
+
 - GitHub Actions
 
 sast github com lock 

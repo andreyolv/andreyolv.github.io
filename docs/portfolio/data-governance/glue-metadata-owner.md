@@ -26,13 +26,20 @@
 
 ## Skills
 - Data Governance
+
 - Data Engineering
+
 - Cloud Engineering
 
 ## Tools
 - AWS Glue Data Catalog
+
 - Amazon Athena
+
 - AWS Lake Formation
+
 - Apache Airflow
+
 - OpenMetadata
+
 - Python (boto3)

@@ -26,13 +26,20 @@
 
 ## Skills
 - Platform Engineering
+
 - DevOps
+
 - Cloud Engineering
 
 ## Tools
 - AWS Load Balancer Controller
+
 - Amazon EKS
+
 - AWS ACM
+
 - AWS WAF
+
 - Kubernetes
+
 - ExternalDNS

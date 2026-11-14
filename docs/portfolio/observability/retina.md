@@ -27,17 +27,27 @@
 ## Skills
 
 - Observability
+
 - Networking
+
 - Security
+
 - Site Reliability Engineering
+
 - DevOps
 
 ## Tools
 
 - Retina
+
 - Hubble
+
 - eBPF
+
 - Cilium
+
 - Prometheus
+
 - Grafana
+
 - Kubernetes

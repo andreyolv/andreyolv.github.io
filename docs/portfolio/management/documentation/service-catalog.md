@@ -34,14 +34,22 @@
 
 ## Skills
 - Platform Engineering
+
 - Service Management
+
 - Documentation as Code
+
 - Project and Backlog Management
+
 - DevOps
 
 ## Tools
 - Github
+
 - Github Issues & Issue Forms
+
 - Github Projects
+
 - Github Actions
+
 - MkDocs

@@ -30,13 +30,20 @@
 
 ## Skills
 - Analytics Engineering
+
 - Data Governance
+
 - FinOps
+
 - Data Engineering
 
 ## Tools
 - Amazon QuickSight (API, SPICE)
+
 - Amazon Athena
+
 - AWS CloudTrail
+
 - Amazon S3
+
 - Python (boto3)

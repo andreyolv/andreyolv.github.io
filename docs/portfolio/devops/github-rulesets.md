@@ -29,6 +29,7 @@
 Standardizing and centralize GitHub Actions workflows to reuse and change management across github organization.
 Administer GitHub organization, defining branch standards, pull request workflows, rulesets, and custom properties to enforce best practices across teams.
 - Develop automated repository provisioning using templates to accelerate project initialization and ensure stadarization across repositories and projects.
+
 - trivy image scan
 
 -Automação de Versionamento de repositório e Release Notes
@@ -38,10 +39,14 @@ policy restrict creation repositories
 
 ## Skills
 - Security
+
 - Static Application Security Testing (SAST) 
+
 - 
 
 ## Tools
 - Github
+
 - Github Advanced Security
+
 - Github Actions

@@ -22,10 +22,14 @@
 
 ## Skills
 - Observability
+
 - DevOps
+
 - Site Reliability Engineering
 
 ## Tools
 - Tempo
+
 - Grafana
+
 - Kubernetes

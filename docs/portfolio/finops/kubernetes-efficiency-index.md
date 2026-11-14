@@ -24,13 +24,20 @@
 
 ## Skills
 - FinOps
+
 - Kubernetes
+
 - Observability
+
 - Platform Engineering
 
 ## Tools
 - Prometheus and kube-state-metrics
+
 - Grafana
+
 - OpenCost
+
 - Vertical Pod Autoscaler
+
 - Karpenter

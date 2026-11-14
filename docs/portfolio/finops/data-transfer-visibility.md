@@ -20,9 +20,13 @@
 
 - Reduction Actions Driven by the Data: The breakdown turned into concrete actions, each one measured in the same views before and after:
   - [VPC gateway endpoints for S3 and DynamoDB](vpc-gateway-endpoints.md) to take data lake traffic off the NAT Gateway.
+
   - A database moved to the region of its consumers to remove inter-region transfer.
+
   - Multi-AZ removed from databases where the recovery objective allowed it.
+
   - EKS nodes kept in a single availability zone for data platform workloads to avoid cross-AZ traffic between Spark, Trino, Kafka and storage.
+
   - Legacy network components removed ([resource decommissioning](resource-reclamation.md)).
 
 - Architecture Review Input: Made the expected data transfer cost part of design reviews — zone placement, region choice, NAT versus endpoints, replication — using the dashboard as the reference for what each pattern costs.
@@ -31,14 +35,22 @@
 
 ## Skills
 - FinOps
+
 - Cloud Networking
+
 - Cloud Engineering
+
 - Data Engineering
 
 ## Tools
 - AWS Data Exports (Cost and Usage Report)
+
 - Amazon S3
+
 - AWS Glue Data Catalog
+
 - Amazon Athena
+
 - Amazon QuickSight
+
 - OpenCost

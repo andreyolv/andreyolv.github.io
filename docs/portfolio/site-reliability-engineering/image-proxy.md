@@ -20,13 +20,18 @@
 
 ## Skills
 - DevOps
+
 - Security
 
 ## Tools
 - Docker
+
 - Kubernetes
+
 - Github Actions
+
 - Trivy
+
 - Azure Container Registry
 
 avaliar harbor para algo genérico pq aws meio merda

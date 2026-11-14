@@ -13,14 +13,21 @@
 ## Skills
 
 - Observability
+
 - Site Reliability Engineering
+
 - DevOps
+
 - Platform Engineering
 
 ## Tools
 
 - Prometheus
+
 - Kubernetes
+
 - Grafana
+
 - Helm
+
 - Flux

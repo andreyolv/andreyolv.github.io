@@ -28,11 +28,16 @@
 
 ## Skills
 - DevOps
+
 - Platform Engineering
+
 - Security
 
 ## Tools
 - Terraform
+
 - Github
+
 - Github Actions
+
 - Github Advanced Security

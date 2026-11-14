@@ -28,13 +28,20 @@
 
 ## Skills
 - Cloud Networking
+
 - Cloud Engineering
+
 - Security
+
 - Platform Engineering
 
 ## Tools
 - Amazon Route 53 (Public and Private Hosted Zones, Resolver)
+
 - AWS RAM
+
 - ExternalDNS
+
 - AWS Certificate Manager
+
 - Terraform

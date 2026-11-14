@@ -7,4 +7,3 @@ As actions são ações realizadas nos workflows dos repositórios, presente nos
 
 Observação importante
 No exemplo mostrado, usa a criação de uma nova tag como padrão. Esse tipo de gatilho é comum em repositórios que utilizam o Airflow. Em repositórios streamlit, o gatilho geralmente é um push na main ou na release, igual a action de deploy de dags.
-

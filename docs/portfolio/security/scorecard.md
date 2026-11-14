@@ -26,12 +26,18 @@
 
 ## Skills
 - Security
+
 - DevSecOps
+
 - CI/CD
 
 ## Tools
 - OpenSSF Scorecard
+
 - Github Actions
+
 - GitHub Advanced Security (SARIF)
+
 - Renovate
+
 - zizmor

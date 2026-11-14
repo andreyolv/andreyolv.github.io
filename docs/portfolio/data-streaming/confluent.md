@@ -15,11 +15,14 @@
 
 ## Skills
 - Data Engineering
+
 - Data Streaming
 
 ## Tools
 - Confluent Cloud
+
 - Microsoft Azure
+
 - Kafka
 
 

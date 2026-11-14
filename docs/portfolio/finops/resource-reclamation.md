@@ -38,17 +38,28 @@
 
 ## Skills
 - FinOps
+
 - Cloud Engineering
+
 - Cloud Governance
+
 - DevOps
 
 ## Tools
 - AWS Resource Explorer
+
 - AWS Resource Groups & Tag Editor
+
 - AWS Cost Explorer & Cost and Usage Report
+
 - AWS Trusted Advisor
+
 - Amazon CloudWatch
+
 - Amazon Athena
+
 - Terraform
+
 - Python (boto3)
+
 - Github Actions

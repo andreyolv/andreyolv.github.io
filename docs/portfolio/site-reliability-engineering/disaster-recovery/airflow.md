@@ -12,6 +12,7 @@ P: Falha replicação de volumes e configurações para namespaces de projetos
 - DAGs não aparecem após atualizar código no repositório e rodar Github Actions
 S: Métricas 
 - airflow_dag_processing_total_parse_time
+
 - airflow_dag_processor_heartbeat
 
 
@@ -19,6 +20,7 @@ S: Métricas
 
 ## Scheduler
 - Falha heartbeat do scheduler
+
 - Tasks não schedulando
 
 ## API Server
@@ -26,8 +28,11 @@ S: Métricas
 
 ## Workers
 - Pod da task não sobe por não achar imagem do container no ECR
+
 - Task travada em status running
+
 - Muitos pods de tasks ao mesmo tempo, com pico de recurso
+
 - Muitos pods de tasks ao mesmo tempo sem subir por não achar imagem do container no ECR
 
 ## Database
@@ -42,4 +47,3 @@ S: Métricas
 -----------------------------------------------------------------
 # Process
 - 
-

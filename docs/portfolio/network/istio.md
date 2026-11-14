@@ -26,12 +26,18 @@
 
 ## Skills
 - Platform Engineering
+
 - Security
+
 - DevOps
 
 ## Tools
 - Istio
+
 - Envoy
+
 - Kubernetes
+
 - Prometheus
+
 - Grafana

@@ -20,8 +20,10 @@
 
 # Skills
 - DevOps
+
 - Platform Engineering
 
 # Tools
 - Kubernetes
+
 - Descheduler

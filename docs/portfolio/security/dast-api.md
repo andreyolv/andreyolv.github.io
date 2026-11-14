@@ -12,14 +12,16 @@
 
 - Security Testing Pipeline Integration: Integrated ZAP scans within CI/CD pipelines to ensure continuous testing of applications across development, staging, and production environments.
 
-Standardized Testing Process: Established a structured approach to perform spidering, active scanning, and fuzzing to detect vulnerabilities such as: Injection Attacks (SQL Injection, Command Injection), Cross-Site Scripting (XSS), Authentication and Authorization Flaws, Security Misconfigurations, Sensitive Data Exposure.
+- Standardized Testing Process: Established a structured approach to perform spidering, active scanning, and fuzzing to detect vulnerabilities such as: Injection Attacks (SQL Injection, Command Injection), Cross-Site Scripting (XSS), Authentication and Authorization Flaws, Security Misconfigurations, Sensitive Data Exposure.
 
 - Reporting and Analysis: Configured ZAP to generate detailed reports with categorized findings, severity levels, and remediation recommendations.
 
 ## Skills
 - Security
+
 - DevOps
 
 ## Tools
 - Github Actions
+
 - OWASP ZAP Proxy

@@ -34,14 +34,22 @@
 
 ## Skills
 - Security
+
 - Cloud Governance
+
 - Cloud Engineering
+
 - FinOps
 
 ## Tools
 - AWS Organizations
+
 - Service Control Policies (SCP)
+
 - AWS IAM
+
 - AWS CloudTrail
+
 - AWS Config
+
 - Terraform

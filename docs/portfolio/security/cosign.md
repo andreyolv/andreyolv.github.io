@@ -13,11 +13,16 @@
 
 ## Skills
 - Security
+
 - DevOps
 
 ## Tools
 - Docker
+
 - Cosign
+
 - Kyverno
+
 - Azure Container Registry
+
 - Github Actions

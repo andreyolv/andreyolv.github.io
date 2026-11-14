@@ -17,5 +17,6 @@
 - Cost Optimization: By replacing Power BI with Metabase, the organization significantly reduced operational costs while maintaining a high standard of performance and functionality.
 
 ## Future Improvements
-SSO Integration: Plan to integrate Single Sign-On (SSO) using providers like OAuth2, Entra ID, simplifying access management and ensuring seamless and secure authentication for users across the organization.
-Versioning: Implement a versioning strategy for dashboards and reports, allowing users to track changes, revert to previous versions, and maintain a history of data visualizations over time.
+- SSO Integration: Plan to integrate Single Sign-On (SSO) using providers like OAuth2, Entra ID, simplifying access management and ensuring seamless and secure authentication for users across the organization.
+
+- Versioning: Implement a versioning strategy for dashboards and reports, allowing users to track changes, revert to previous versions, and maintain a history of data visualizations over time.

@@ -34,14 +34,22 @@
 
 ## Skills
 - Security
+
 - Cloud Governance
+
 - Cloud Engineering
+
 - Identity and Access Management
 
 ## Tools
 - AWS IAM
+
 - IAM Access Analyzer
+
 - IAM Credential Report
+
 - AWS CloudTrail
+
 - AWS Organizations
+
 - Terraform

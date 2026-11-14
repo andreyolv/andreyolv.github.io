@@ -40,11 +40,16 @@
 
 ## Skills
 - Agile Methodologies (Kanban / Scrum)
+
 - Project and Backlog Management
+
 - DevOps
 
 ## Tools
 - Github
+
 - Github Projects
+
 - Github Issues
+
 - Github Actions

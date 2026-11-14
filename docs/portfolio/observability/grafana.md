@@ -34,9 +34,12 @@
 
 ## Skills
 - DevOps
+
 - Site Reliability Engineering
+
 - Observability
 
 ## Tools
 - Grafana
+
 - Kubernetes

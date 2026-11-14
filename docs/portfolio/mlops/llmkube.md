@@ -34,19 +34,32 @@
 
 ## Skills
 - MLOps
+
 - Platform Engineering
+
 - Kubernetes
+
 - GitOps
+
 - Observability
 
 ## Tools
 - llmkube
+
 - llama.cpp
+
 - Kubernetes
+
 - Flux
+
 - Helm
+
 - Kyverno
+
 - Prometheus Operator
+
 - Grafana Operator
+
 - LiteLLM
+
 - Renovate

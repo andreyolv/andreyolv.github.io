@@ -30,13 +30,20 @@
 
 ## Skills
 - Data Engineering
+
 - Data Streaming
+
 - Platform Engineering
 
 ## Tools
 - Apache Spark (Spark Declarative Pipelines, Structured Streaming)
+
 - Apache Kafka
+
 - Apache Iceberg
+
 - Amazon S3
+
 - Kubernetes
+
 - GitHub Actions

@@ -34,11 +34,16 @@
 
 ## Skills
 - Cloud Engineering
+
 - Data Engineering
+
 - FinOps
 
 ## Tools
 - AWS EMR
+
 - AWS EC2 Spot
+
 - Apache Spark
+
 - Terraform

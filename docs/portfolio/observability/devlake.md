@@ -32,14 +32,22 @@
 
 ## Skills
 - DevOps
+
 - Platform Engineering
+
 - Observability
+
 - Engineering Management
 
 ## Tools
 - Apache DevLake
+
 - Grafana
+
 - GitHub
+
 - Kubernetes
+
 - Helm
+
 - Flux

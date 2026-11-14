@@ -16,7 +16,9 @@
 
 - One Local Stack for Three Clouds: Extended local emulation to all three providers with the Floci runtimes, each on its own port:
   - AWS — `floci` on `4566`: S3, DynamoDB, SQS, SNS, Lambda, Kinesis, IAM, RDS, ECS, EKS, MSK and more.
+
   - Azure — `floci-az` on `4577`: Blob, Queue and Table, Cosmos DB, Service Bus, Event Hubs, Key Vault, Functions, Azure SQL and PostgreSQL flexible server.
+
   - GCP — `floci-gcp` on `4588`: Cloud Storage, Pub/Sub, Firestore, Secret Manager, Cloud Run, Cloud Functions and Cloud SQL.
 
 - Single Console: Added `floci-ui`, an AWS-Console-style web UI that reads the real state of the three runtimes at once, so engineers can inspect buckets, queues and messages without CLI commands.
@@ -33,15 +35,24 @@
 
 ## Skills
 - Cloud Engineering
+
 - Software Engineering
+
 - DevOps
+
 - FinOps
 
 ## Tools
 - Floci (AWS), Floci-AZ (Azure), Floci-GCP (GCP)
+
 - Floci UI
+
 - LocalStack (replaced)
+
 - Docker Compose
+
 - Testcontainers
+
 - Terraform
+
 - AWS CLI and SDKs

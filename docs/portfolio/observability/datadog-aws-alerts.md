@@ -20,11 +20,17 @@
 
 - Standard Monitor Catalog per Service:
   - RDS / Aurora: CPU, free storage space, freeable memory, connections, replica lag.
+
   - ALB / NLB: 5xx rate, target response time, unhealthy hosts.
+
   - SQS: age of oldest message, visible messages, dead-letter queue not empty.
+
   - Lambda: error rate, throttles, duration close to the timeout.
+
   - EC2 / EKS nodes: status check failures, CPU credits, disk usage.
+
   - NAT Gateway: dropped packets and port allocation errors.
+
   - DynamoDB: throttled requests and consumed capacity.
 
 - Smarter Thresholds: Used anomaly and forecast monitors where static thresholds do not fit (traffic with daily seasonality, disk filling up), recovery thresholds and evaluation windows to stop flapping, and composite monitors to alert only when related symptoms happen together.
@@ -35,14 +41,22 @@
 
 ## Skills
 - Observability
+
 - Site Reliability Engineering
+
 - Cloud Engineering
+
 - Infrastructure as Code
 
 ## Tools
 - Datadog
+
 - AWS CloudWatch
+
 - Amazon Kinesis Data Firehose
+
 - Terraform
+
 - PagerDuty
+
 - Slack

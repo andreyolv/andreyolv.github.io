@@ -11,6 +11,9 @@ Deploy self-hosted GitHub Actions runners inside the private network on Kubernet
 
 ## Consequences
 - Workflows that require private connectivity can run securely inside the private network.
+
 - Runner capacity can scale based on demand.
+
 - Maintenance responsibility increases (runner platform operations, upgrades, and incident response).
+
 - The custom runner image becomes part of the supply chain and must be built, scanned, and maintained.

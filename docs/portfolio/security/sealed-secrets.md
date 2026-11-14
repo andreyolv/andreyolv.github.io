@@ -20,8 +20,10 @@
 
 ## Skills
 - Security
+
 - DevOps
 
 ## Tools
 - Kubernetes
+
 - Sealed Secrets

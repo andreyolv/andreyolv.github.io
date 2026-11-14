@@ -16,10 +16,14 @@
 
 ## Skills
 - DevOps
+
 - Observability
+
 - Site Reliability Engineering
 
 # Tools
 - Prometheus
+
 - Alertmanager
+
 - Kubernetes

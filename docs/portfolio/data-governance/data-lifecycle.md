@@ -30,12 +30,18 @@
 
 ## Skills
 - Data Governance
+
 - FinOps
+
 - Cloud Engineering
 
 ## Tools
 - Amazon S3 Lifecycle and Storage Classes
+
 - S3 Intelligent-Tiering
+
 - S3 Inventory
+
 - Amazon Athena
+
 - Terraform

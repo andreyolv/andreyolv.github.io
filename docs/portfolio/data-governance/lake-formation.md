@@ -30,15 +30,24 @@
 
 ## Skills
 - Data Governance
+
 - Security
+
 - Data Engineering
+
 - Cloud Engineering
 
 ## Tools
 - AWS Lake Formation
+
 - AWS Glue Data Catalog
+
 - Amazon Athena
+
 - Amazon EMR
+
 - AWS RAM
+
 - AWS CloudTrail
+
 - Terraform

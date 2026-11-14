@@ -27,16 +27,25 @@
 ## Skills
 
 - Data Engineering
+
 - Platform Engineering
+
 - DevOps
+
 - Site Reliability Engineering
 
 ## Tools
 
 - Trino
+
 - Trino Gateway
+
 - Kubernetes
+
 - Helm
+
 - Prometheus
+
 - Grafana
+
 - Flux

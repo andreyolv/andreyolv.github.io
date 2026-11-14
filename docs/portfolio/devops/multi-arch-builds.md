@@ -24,12 +24,18 @@
 
 ## Skills
 - DevOps
+
 - Platform Engineering
+
 - FinOps
 
 ## Tools
 - GitHub Actions
+
 - Actions Runner Controller (runner scale sets)
+
 - Docker Buildx
+
 - Amazon EKS with Graviton
+
 - Amazon ECR
