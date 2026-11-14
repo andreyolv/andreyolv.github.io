@@ -8,8 +8,6 @@ site_description: Platform & Data Engineering — CV, projects and technical por
 site_author: Andrey Oliveira
 site_url: https://andreyolv.github.io/
 
-repo_name: andreyolv/andreyolv.github.io
-repo_url: https://github.com/andreyolv/andreyolv.github.io
 edit_uri: edit/main/docs/
 
 docs_dir: docs
