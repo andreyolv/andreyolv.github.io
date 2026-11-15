@@ -94,7 +94,7 @@ For the documentation structure and writing conventions used in this repository,
 ---
 
 ## Data Engineering
-- [Data Batch Workflow Orchestration with Apache Airflow on Kubernetes](data-engineering/airflow.md)
+- [Data Batch Workflow Orchestration with Apache Airflow on Kubernetes](data-engineering/airflow/)
 - [Airflow DAG Cleanup, Organization and Ownership Governance](data-engineering/airflow-dags-cleanup.md)
 - [Standardized Airflow Failure Notifications through Cluster Policy Mutation](data-engineering/airflow-failure-notifications.md)
 - [Airflow DAG Migration & Pipeline Modernization](data-engineering/airflow-dags-migration.md)
@@ -160,8 +160,8 @@ For the documentation structure and writing conventions used in this repository,
 
 ## DevOps
 - [Static Validation of GitHub Actions Workflows with actionlint](devops/actionlint.md)
-- [Reusable GitHub Actions Workflow Templates for Multi-Repository CI/CD Projects](devops/actions-centralization.md)
-- [Automated Infrastructure Terraform Deployment with Github Actions](devops/cicd-terraform.md)
+- [Reusable GitHub Actions Workflow Templates for Multi-Repository CI/CD Projects](devops/actions-centralization/)
+- [Automated Infrastructure Terraform Deployment with Github Actions](devops/cicd-terraform/)
 - [CI/CD Pipelines for Airflow Projects: DAG Code Releases and Image Build with GitHub Actions](devops/cicd-airflow.md)
 - [Container Registry Insights and Image Lifecycle Management](devops/container-registry.md)
 - [Airflow DAG Quality Assurance in CI/CD with Custom GitHub Action](devops/custom-action.md)
@@ -182,7 +182,7 @@ For the documentation structure and writing conventions used in this repository,
 - [Pull Request Template Standardization](devops/pullrequest-template.md)
 - [Automated Pod Rollouts Triggered by ConfigMap and Secret Changes](devops/reloader/1-resume.md)
 - [GitHub Repository Templating for Automated Project Setup](devops/repositories-templates.md)
-- [Self-Hosted GitHub Actions on Kubernetes for Secure CI/CD](devops/self-hosted-actions.md)
+- [Self-Hosted GitHub Actions on Kubernetes for Secure CI/CD](devops/self-hosted-actions/)
 - [VSCode Extensions for Consistent Development Environments](devops/vscode-extensions.md)
 
 ---

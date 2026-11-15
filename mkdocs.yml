@@ -1,5 +1,7 @@
 # GitHub Pages site for andreyolv.github.io
-# Build locally with: pip install -r requirements.txt && mkdocs serve
+# Built with Zensical (https://github.com/zensical/zensical), a MkDocs-compatible
+# static site generator by the creators of Material for MkDocs.
+# Build locally with: pip install -r requirements.txt && zensical serve
 # Navigation is generated from the docs/ folder tree on purpose, so new
 # portfolio pages show up without editing this file.
 
@@ -21,12 +23,6 @@ nav:
       - Categories: portfolio/categories.md
       - Projects by Status: portfolio/catalog.md
   - Articles: articles/README.md
-
-# Internal meta pages of the portfolio library: built and linkable, but kept out
-# of the navigation so the sidebar stays focused on real portfolio content.
-not_in_nav: |
-  /portfolio/docs.md
-  /portfolio/docs-standard.md
 
 theme:
   name: material
@@ -65,9 +61,6 @@ extra_javascript:
 
 plugins:
 - search
-
-hooks:
-- hooks/portfolio.py
 
 markdown_extensions:
 - admonition

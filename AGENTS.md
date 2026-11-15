@@ -14,10 +14,16 @@ Do not add new documentation in Portuguese. If you need to translate existing Po
 
 ## Project context
 
-- Static site built with [MkDocs Material](https://squidfunk.github.io/mkdocs-material/).
+- Static site built with [Zensical](https://github.com/zensical/zensical), a MkDocs-compatible
+  static site generator by the creators of Material for MkDocs.
 - Source docs live in `docs/`.
 - Built and deployed to GitHub Pages via `.github/workflows/deploy.yml` on push to `main`.
-- Local dev: `pip install -r requirements.txt && mkdocs serve`.
+- Local dev: `pip install -r requirements.txt && zensical serve` (preview at http://127.0.0.1:8000)
+- Build: `pip install -r requirements.txt && zensical build` (static site in `site/`)
+- The portfolio catalog (`docs/portfolio/catalog.md`) is generated statically before each
+  build by `scripts/generate_portfolio_catalog.py`, which reads the lifecycle frontmatter
+  of every page under `docs/portfolio/`. The MkDocs hook (`hooks/portfolio.py`) is no longer
+  used because Zensical does not run arbitrary Python hooks.
 
 ## Tech Stack page
 

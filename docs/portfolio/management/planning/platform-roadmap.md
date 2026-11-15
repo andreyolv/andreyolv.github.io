@@ -32,7 +32,7 @@ Make what exists safe, known and reproducible before building on it.
 
 - Audit and guardrails: organization CloudTrail and Service Control Policies ([CloudTrail](../../cloud-engineering/aws/cloudtrail.md), [SCP](../../cloud-engineering/aws/scp.md)).
 
-- Infrastructure as code: legacy Terraform refactored and every change through a pipeline ([IaC refactoring](../../cloud-engineering/iac-legacy-refactor.md), [Terraform CI/CD](../../devops/cicd-terraform.md)).
+- Infrastructure as code: legacy Terraform refactored and every change through a pipeline ([IaC refactoring](../../cloud-engineering/iac-legacy-refactor.md), [Terraform CI/CD](../../devops/cicd-terraform/)).
 
 - Standards: mandatory tags, naming and ownership ([tag policy](../../cloud-engineering/tag-policy.md)).
 
@@ -45,7 +45,7 @@ Consolidate data workloads on one Kubernetes-based platform, operated through Gi
 
 - Kubernetes platform: EKS with node pools by criticality, GitOps with Flux and policies as code ([EKS](../../cloud-engineering/aws/eks.md), [node pools](../../site-reliability-engineering/node-pools.md), [GitOps](../../platform-engineering/gitops.md), [Kyverno](../../security/kyverno.md)).
 
-- Data engines on the platform: Airflow, Spark, Trino and Kafka on Kubernetes ([Airflow](../../data-engineering/airflow.md), [Spark](../../data-engineering/spark-k8s.md), [Trino](../../data-engineering/trino.md), [Kafka](../../data-streaming/kafka-k8s.md)).
+- Data engines on the platform: Airflow, Spark, Trino and Kafka on Kubernetes ([Airflow](../../data-engineering/airflow/), [Spark](../../data-engineering/spark-k8s.md), [Trino](../../data-engineering/trino.md), [Kafka](../../data-streaming/kafka-k8s.md)).
 
 - Lakehouse: Iceberg as the table standard with a governed catalog and permissions ([Iceberg](../../data-governance/iceberg.md), [Lake Formation](../../data-governance/lake-formation.md)).
 
@@ -53,7 +53,7 @@ Consolidate data workloads on one Kubernetes-based platform, operated through Gi
 
 - Operations: observability, alerting and standard failure notifications ([metrics](../../observability/metrics.md), [Alertmanager](../../observability/alertmanager.md), [Airflow notifications](../../data-engineering/airflow-failure-notifications.md)).
 
-- Delivery: self-hosted multi-architecture CI and reusable workflows ([self-hosted runners](../../devops/self-hosted-actions.md), [multi-arch builds](../../devops/multi-arch-builds.md), [reusable workflows](../../devops/actions-centralization.md)).
+- Delivery: self-hosted multi-architecture CI and reusable workflows ([self-hosted runners](../../devops/self-hosted-actions/), [multi-arch builds](../../devops/multi-arch-builds.md), [reusable workflows](../../devops/actions-centralization/)).
 
 ### Horizon 3 — Self-Service and Scale (12 to 24 months)
 Let teams use the platform without the platform team in the loop, and prepare it to grow.

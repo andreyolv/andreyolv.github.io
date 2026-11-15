@@ -1,14 +1,15 @@
 ---
-kind: index
+status: active
+environment: production
+kind: project
 ---
-
 # Airflow on Kubernetes
 
 Apache Airflow workflow orchestration running on Kubernetes. This area covers DAG lifecycle, quality assurance, observability, migration, and operational governance for data batch workflows.
 
 ## Orchestration & Pipelines
 
-- [Data Batch Workflow Orchestration with Apache Airflow on Kubernetes](../airflow.md)
+
 - [CI/CD Pipelines for Airflow Projects: DAG Code Releases and Image Build with GitHub Actions](cicd-airflow.md)
 - [Airflow DAG Migration & Pipeline Modernization](migration.md)
 

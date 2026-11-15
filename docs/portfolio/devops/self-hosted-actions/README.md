@@ -1,7 +1,8 @@
 ---
-kind: index
+status: active
+environment: production
+kind: project
 ---
-
 # Self-Hosted GitHub Actions on Kubernetes
 
 Self-hosted GitHub Actions runners running on Kubernetes for secure CI/CD. This area covers planning, technical design, operations, and user guides for self-hosted Actions infrastructure.
@@ -9,7 +10,7 @@ Self-hosted GitHub Actions runners running on Kubernetes for secure CI/CD. This 
 ## Planning
 
 - [Business Case](planning/business-case.md)
-- [PoC](planning/poc.md)
+- PoC
 - [RFC](planning/rfc.md)
 - [Roadmap](planning/roadmap.md)
 - [Tech Debt](planning/tech-debt.md)
