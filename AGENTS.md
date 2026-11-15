@@ -2,7 +2,7 @@
 
 ## Workflow rule
 
-**Work directly on the `main` branch. Do not create branches or pull requests for this repository.** All changes are committed and pushed directly to `main`, which triggers the GitHub Pages deployment.
+**Work directly on the `main` branch. Do not create branches or pull requests for this repository.** All changes are committed and pushed directly to `main`, which triggers the GitHub Pages deployment. You can always commit and push without asking first.
 
 ## Language rule
 
