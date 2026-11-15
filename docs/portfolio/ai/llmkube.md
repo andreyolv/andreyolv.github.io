@@ -63,3 +63,6 @@
 - LiteLLM
 
 - Renovate
+
+## Related
+- [Local LLM Inference with llama.cpp on Constrained Hardware](local-llama-cpp.md) — the local counterpart and why it was not viable on laptop hardware.

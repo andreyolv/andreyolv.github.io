@@ -204,9 +204,6 @@ For the documentation structure and writing conventions used in this repository,
 ---
 
 ## MLOps
-- [Workflow Orchestration and Automation with LangFlow](mlops/langflow.md)
-- [Self-Hosted LLM Inference on Kubernetes with llmkube and llama.cpp](mlops/llmkube.md)
-- [Centralized Pipeline Management and Execution with MCPServer](mlops/mcpserver.md)
 - [Machine Learning Lifecycle Management with MLflow](mlops/mlflow.md)
 - [Interactive Machine Learning Model Deployment with Streamlit](mlops/streamlit.md)
 
@@ -324,5 +321,8 @@ For the documentation structure and writing conventions used in this repository,
 
 ## AI
 - [AI-Native Development with OpenCode as an AI IDE](ai/opencode-ai-ide.md)
+- [Self-Hosted LLM Inference on Kubernetes with llmkube and llama.cpp](ai/llmkube.md)
+- [Local LLM Inference with llama.cpp on Constrained Hardware](ai/local-llama-cpp.md)
+- [Centralized Pipeline Management and Execution with MCPServer](ai/mcpserver.md)
 
 ---
