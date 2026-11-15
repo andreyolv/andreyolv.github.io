@@ -8,11 +8,11 @@ As a living portfolio, it is expected to be continuously reviewed, refined, and 
 For the documentation structure and writing conventions used in this repository, see [docs-standard.md](docs-standard.md).
 
 ## Summary
+- [AI](#ai)
 - [Analytics Engineering](#analytics-engineering)
 - [Cloud](#cloud)
 - [Data Engineering](#data-engineering)
 - [Data Governance](#data-governance)
-- [AI](#ai)
 - [Data Streaming](#data-streaming)
 - [Databases](#databases)
 - [DevOps](#devops)
@@ -23,8 +23,16 @@ For the documentation structure and writing conventions used in this repository,
 - [Observability](#observability)
 - [Platform Engineering](#platform-engineering)
 - [Security](#security)
-- [Software Engineering](#software-engineering)
 - [Site Reliability Engineering](#site-reliability-engineering)
+- [Software Engineering](#software-engineering)
+
+---
+
+## AI
+- [AI-Native Development with OpenCode as an AI IDE](ai/opencode-ai-ide.md)
+- [Self-Hosted LLM Inference on Kubernetes with llmkube and llama.cpp](ai/llmkube.md)
+- [Local LLM Inference with llama.cpp on Constrained Hardware](ai/local-llama-cpp.md)
+- [Centralized Pipeline Management and Execution with MCPServer](ai/mcpserver.md)
 
 ---
 
@@ -294,16 +302,6 @@ For the documentation structure and writing conventions used in this repository,
 
 ---
 
-## Software Engineering
-- [Managed Package Repository for Internal Libraries and Upstream Caching with AWS CodeArtifact](software-engineering/codeartifact.md)
-- [Code Quality Standardization with Linters and Pre-Commit](software-engineering/linters.md)
-- [Automated LLM Pull Request Review with Open Code Review and GitHub Actions](software-engineering/open-code-review.md)
-- [Python Artifact Repository for Internal Libraries on Kubernetes](software-engineering/python-artifact-repo.md)
-- [RabbitMQ Messaging Topology Kubernetes Operator](software-engineering/rabbitmq.md)
-- [Python Dependency and Environment Management with UV](software-engineering/uv.md)
-
----
-
 ## Site Reliability Engineering
 - [Resilient Persistent Volume Backup and Recovery for Kubernetes with Velero](site-reliability-engineering/backup-k8s.md)
 - [Progressive Canary Deployments in Kubernetes with Flagger](site-reliability-engineering/canary-flagger.md)
@@ -319,10 +317,12 @@ For the documentation structure and writing conventions used in this repository,
 
 ---
 
-## AI
-- [AI-Native Development with OpenCode as an AI IDE](ai/opencode-ai-ide.md)
-- [Self-Hosted LLM Inference on Kubernetes with llmkube and llama.cpp](ai/llmkube.md)
-- [Local LLM Inference with llama.cpp on Constrained Hardware](ai/local-llama-cpp.md)
-- [Centralized Pipeline Management and Execution with MCPServer](ai/mcpserver.md)
+## Software Engineering
+- [Managed Package Repository for Internal Libraries and Upstream Caching with AWS CodeArtifact](software-engineering/codeartifact.md)
+- [Code Quality Standardization with Linters and Pre-Commit](software-engineering/linters.md)
+- [Automated LLM Pull Request Review with Open Code Review and GitHub Actions](software-engineering/open-code-review.md)
+- [Python Artifact Repository for Internal Libraries on Kubernetes](software-engineering/python-artifact-repo.md)
+- [RabbitMQ Messaging Topology Kubernetes Operator](software-engineering/rabbitmq.md)
+- [Python Dependency and Environment Management with UV](software-engineering/uv.md)
 
 ---
