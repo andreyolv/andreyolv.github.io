@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Data Infrastructure Monitoring with Synthetic Baseline Workload
 
 ## Problem

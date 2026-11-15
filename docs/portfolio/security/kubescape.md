@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Kubernetes Security and Compliance with Kubescape
 ## Problem
 - Lack of Visibility into Potential Security Issues: Many Kubernetes clusters operate without sufficient visibility into security vulnerabilities, misconfigurations, and compliance violations. This blind spot makes it challenging for teams to detect and address risks before they escalate, leaving clusters exposed to attacks and compliance failures.

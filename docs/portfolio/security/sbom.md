@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Software Bill of Materials (SBOM) for Supply Chain Security
 
 ## Problem

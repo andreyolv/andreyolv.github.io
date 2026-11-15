@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Container Vulnerability Scanning and Security Compliance with Trivy 
 
 ## Problem

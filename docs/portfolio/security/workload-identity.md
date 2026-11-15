@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Secretless Workload Authentication in Kubernetes with Workload Identity
 
 ## Problem

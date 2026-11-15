@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Alerting Kubernetes Infrastructure and Critical Applications Issues with Alertmanager
 
 ## Problem

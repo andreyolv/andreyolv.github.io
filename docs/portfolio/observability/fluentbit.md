@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Kubernetes Log Collection with Fluent Bit and Loki Ingestion
 
 ## Problem

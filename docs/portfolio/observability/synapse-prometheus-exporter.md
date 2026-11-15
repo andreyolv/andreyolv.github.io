@@ -1,3 +1,9 @@
+---
+status: deprecated
+environment: production
+kind: project
+---
+
 # Query Performance Monitoring for Azure Synapse Analytics using a Custom Prometheus Exporter
 ## Problem
 - Performance Variability: Azure Synapse Analytics Serverless SQL Pools experienced intermittent performance issues, with query execution times occasionally degrading significantly.

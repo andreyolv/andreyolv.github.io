@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Network Observability in Kubernetes with Retina and Hubble
 
 ## Problem

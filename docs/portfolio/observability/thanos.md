@@ -1,3 +1,9 @@
+---
+status: active
+environment: non-production
+kind: project
+---
+
 # Long-Term Prometheus Metrics Retention with Thanos
 
 ## Problem

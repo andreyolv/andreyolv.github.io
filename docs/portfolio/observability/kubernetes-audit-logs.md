@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Kubernetes Security and Compliance with Audit Log
 
 ## Problem

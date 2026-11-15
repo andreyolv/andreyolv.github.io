@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Security and Compliance Policy as Code for Kubernetes with Kyverno
 
 ## Problem

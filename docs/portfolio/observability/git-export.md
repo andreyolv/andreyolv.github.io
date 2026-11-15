@@ -1,3 +1,9 @@
+---
+status: deprecated
+environment: production
+kind: project
+---
+
 # Monitoring Software Delivery and Security Signals using Git Data
 
 ## Problem

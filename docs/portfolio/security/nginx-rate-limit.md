@@ -1,3 +1,11 @@
+---
+status: deprecated
+environment: production
+kind: project
+superseded_by: ../network/gateway-api.md
+superseded_by_label: Gateway API and Envoy Gateway
+---
+
 # Rate Limiting in Nginx Ingress Controller for API Security
 
 ## Problem

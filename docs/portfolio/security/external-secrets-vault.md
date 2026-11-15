@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Kubernetes Secret Synchronization between Azure Key Vault and External Secrets Operator
 
 ## Problem

@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Kubernetes Log Centralized Storage with Loki
 
 ## Problem

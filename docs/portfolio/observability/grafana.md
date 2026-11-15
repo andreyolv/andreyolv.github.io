@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Declarative Monitoring and Observability Dashboards with Grafana Operator
 
 ## Problem

@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Automated Dependency and Supply Chain Updates with Renovate
 
 ## Problem

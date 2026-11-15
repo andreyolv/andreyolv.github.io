@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Kubernetes Runtime Threat Detection with Falco
 
 ## Problem

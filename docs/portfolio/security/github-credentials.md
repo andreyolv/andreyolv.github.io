@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # 🛡️ GitHub Credentials Policy: Authentication Standards & Governance
 
 ## 1. Overview and General Directive

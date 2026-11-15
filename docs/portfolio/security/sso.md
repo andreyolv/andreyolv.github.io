@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Centralizing Authentication Across Data and DevOps Tools with Entra ID Single Sign-On (SSO)
 
 ## Problem

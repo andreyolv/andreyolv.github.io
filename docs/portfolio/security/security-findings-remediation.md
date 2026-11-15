@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Remediation of AWS and GitHub Security Findings from Prowler Scans
 
 ## Problem

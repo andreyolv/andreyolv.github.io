@@ -1,3 +1,9 @@
+---
+status: active
+environment: non-production
+kind: project
+---
+
 # Distributed Tracing of Microservice Request Flows on Kubernetes with Grafana Tempo
 
 ## Problem

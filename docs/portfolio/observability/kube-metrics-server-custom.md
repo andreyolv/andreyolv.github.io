@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Custom Metrics for Crossplane Composite Resources with Kube Metrics Server
 
 ## Problem

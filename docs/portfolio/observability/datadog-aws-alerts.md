@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # AWS Cloud Alerting as Code with Datadog Monitors
 
 ## Problem

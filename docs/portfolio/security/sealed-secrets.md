@@ -1,3 +1,11 @@
+---
+status: deprecated
+environment: production
+kind: project
+superseded_by: external-secrets-vault.md
+superseded_by_label: Kubernetes Secret Synchronization between Azure Key Vault and External Secrets Operator
+---
+
 # Encrypted Kubernetes Secrets for GitOps Workflows with Sealed Secrets
 
 ## Problem

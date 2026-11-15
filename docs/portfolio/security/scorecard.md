@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Continuous Supply Chain Security Posture Assessment with OpenSSF Scorecard
 
 ## Problem

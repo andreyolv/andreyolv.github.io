@@ -1,3 +1,9 @@
+---
+status: active
+environment: non-production
+kind: project
+---
+
 # Observability for Kubernetes with OpenTelemetry
 
 ## Problem

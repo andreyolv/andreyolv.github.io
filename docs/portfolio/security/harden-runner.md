@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Runtime Security for GitHub Actions Runners with Harden-Runner
 
 ## Problem

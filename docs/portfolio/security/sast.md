@@ -1,3 +1,11 @@
+---
+status: deprecated
+environment: production
+kind: project
+superseded_by: sast-open.md
+superseded_by_label: Code Security with SAST Open Source Tools
+---
+
 # Code Security with SAST and GitHub Advanced Security
 ## Problem
 - Lack of Proactive Vulnerability Management: The absence of an automated system to identify and address Common Vulnerabilities and Exposures (CVEs) across the organization increased the risk of security breaches and non-compliance with security standards.

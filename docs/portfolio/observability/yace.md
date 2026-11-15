@@ -1,3 +1,9 @@
+---
+status: active
+environment: non-production
+kind: project
+---
+
 # AWS Infrastructure Observability with YACE and Prometheus
 
 ## Problem

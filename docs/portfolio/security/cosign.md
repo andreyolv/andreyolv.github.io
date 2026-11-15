@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Ensuring Trusted Container Images with Cosign and Kyverno
 ## Problem
 - Image Integrity and Security: Securing containerized applications requires ensuring that only trusted and unmodified images are deployed. Without a reliable image signing and verification system, the risk of running tampered or malicious images in production increases.

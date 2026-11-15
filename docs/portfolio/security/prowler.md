@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Cloud Security & Compliance Auditing with Prowler
 
 ## Problem

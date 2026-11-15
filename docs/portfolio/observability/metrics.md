@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Kubernetes Metrics Collection and Storage with Prometheus
 
 ## Problem

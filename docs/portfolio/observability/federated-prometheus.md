@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Federated Prometheus for Long-Term Metrics Retention
 
 ## Problem

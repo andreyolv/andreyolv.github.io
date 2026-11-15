@@ -319,6 +319,17 @@ def _build_catalog_html(docs_dir: Path) -> str:
         ENVIRONMENT_ORDER,
         len(projects),
     )
+    discipline_counts = Counter(project["category"] for project in projects)
+    discipline_order = tuple(
+        sorted(discipline_counts, key=lambda item: item.casefold())
+    )
+    discipline_chips = _filter_chips(
+        "discipline",
+        {value: value for value in discipline_order},
+        discipline_counts,
+        discipline_order,
+        len(projects),
+    )
 
     status_rank = {status: index for index, status in enumerate(STATUS_ORDER)}
     rows = []
@@ -346,7 +357,8 @@ def _build_catalog_html(docs_dir: Path) -> str:
         )
         rows.append(
             f'<tr data-status="{html.escape(project["status"])}" '
-            f'data-environment="{html.escape(environment or "")}">'
+            f'data-environment="{html.escape(environment or "")}" '
+            f'data-discipline="{html.escape(project["category"])}">'
             f'<td><a href="{html.escape(_url_for(project["rel"]), quote=True)}">'
             f'{html.escape(project["title"])}</a></td>'
             f'<td>{html.escape(project["category"])}</td>'
@@ -362,7 +374,7 @@ def _build_catalog_html(docs_dir: Path) -> str:
         '<div id="portfolio-catalog">'
         "<noscript><style>.portfolio-filters{display:none}</style></noscript>"
         '<div class="portfolio-filters">'
-        f"{status_chips}{environment_chips}"
+        f"{status_chips}{environment_chips}{discipline_chips}"
         "</div>"
         '<div class="portfolio-table-wrapper">'
         '<table class="portfolio-table">'

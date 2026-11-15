@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Static Application Security Testing for GitHub Actions Workflows with zizmor
 
 ## Problem

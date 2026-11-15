@@ -1,3 +1,9 @@
+---
+status: active
+environment: non-production
+kind: project
+---
+
 # Dynamic Application Security Testing (DAST) with ZAP Proxy
 
 ## Problem
