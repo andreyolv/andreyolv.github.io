@@ -49,7 +49,6 @@ theme:
   - navigation.indexes
   - navigation.sections
   - navigation.top
-  - navigation.footer
   - search.highlight
   - search.suggest
   - content.code.copy

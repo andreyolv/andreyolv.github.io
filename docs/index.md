@@ -16,6 +16,7 @@ hide:
 [View CV](cv.md){ .md-button .md-button--primary }
 [Tech Stack](tech-stack.md){ .md-button }
 [Explore the portfolio](portfolio/README.md){ .md-button }
+[Technical articles](articles/README.md){ .md-button }
 [GitHub](https://github.com/andreyolv){ .md-button }
 [LinkedIn](https://www.linkedin.com/in/andreyolv){ .md-button }
 </p>
@@ -88,33 +89,3 @@ flexible, vendor-neutral platforms with an exceptional long-term cost-benefit ra
   OpenLineage, Iceberg, Delta, MLflow.
 - **Databases** — StarRocks, ClickHouse, PostgreSQL, MySQL, MSSQL, Valkey, MongoDB, Neo4j,
   Cassandra.
-
-## Explore
-
-<div class="grid cards" markdown>
-
--   :material-account-tie:{ .lg .middle } **CV**
-
-    ---
-
-    Professional history, education, certifications and core skills.
-
-    [:material-arrow-right: Read the CV](cv.md)
-
--   :material-bookshelf:{ .lg .middle } **Technical portfolio**
-
-    ---
-
-    A searchable library of 100+ platform, data and cloud engineering projects.
-
-    [:material-arrow-right: Open the portfolio](portfolio/README.md)
-
--   :material-newspaper-variant-outline:{ .lg .middle } **Technical articles**
-
-    ---
-
-    Deep dives on platform engineering, data engineering, Kubernetes and data platforms.
-
-    [:material-arrow-right: Read the articles](articles/README.md)
-
-</div>
