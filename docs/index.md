@@ -109,4 +109,12 @@ flexible, vendor-neutral platforms with an exceptional long-term cost-benefit ra
 
     [:material-arrow-right: Open the portfolio](portfolio/README.md)
 
+-   :material-newspaper-variant-outline:{ .lg .middle } **Technical articles**
+
+    ---
+
+    Deep dives on platform engineering, data engineering, Kubernetes and data platforms.
+
+    [:material-arrow-right: Read the articles](articles/README.md)
+
 </div>
