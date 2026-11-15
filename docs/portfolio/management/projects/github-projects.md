@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Scrum and Agile Activity Management with GitHub Projects
 
 ## Problem

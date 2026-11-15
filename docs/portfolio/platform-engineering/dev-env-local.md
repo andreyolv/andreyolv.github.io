@@ -1,3 +1,9 @@
+---
+status: active
+environment: local
+kind: project
+---
+
 # Cost-Efficient Local Development Environment for Data Engineering Teams
 
 ## Problem

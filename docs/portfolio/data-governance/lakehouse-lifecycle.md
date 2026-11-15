@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Lakehouse Table Lifecycle: Data Retention, Snapshot Expiration and Table Maintenance with Apache Iceberg
 
 ## Problem

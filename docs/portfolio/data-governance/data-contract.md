@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Data Contracts for Reliable and Scalable Data Products
 
 ## Problem

@@ -1,3 +1,7 @@
+---
+kind: index
+---
+
 # Site Reliability Engineering
 
 Reliability capabilities for Kubernetes and data platform services: backup and restore,

@@ -1,3 +1,7 @@
+---
+kind: index
+---
+
 # Azure
 
 Microsoft Azure infrastructure, security, governance, and data services. This area covers cost optimization, security visibility, resource governance, and private connectivity within Azure environments.

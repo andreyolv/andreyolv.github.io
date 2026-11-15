@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Orchestrated dbt Transformations with Airflow on Kubernetes
 
 ## Problem

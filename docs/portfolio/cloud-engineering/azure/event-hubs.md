@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Azure Event Hubs for Data Lake Access Auditing
 
 ## Problem

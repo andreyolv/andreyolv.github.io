@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # AWS IAM Cleanup, Organization and Governance: Unused Access Removal and Ownership
 
 ## Problem

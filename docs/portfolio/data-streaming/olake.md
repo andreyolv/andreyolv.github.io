@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Direct Database CDC to Iceberg Lakehouse without Kafka using OLake
 
 ## Problem

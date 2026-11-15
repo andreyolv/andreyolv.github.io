@@ -1,3 +1,7 @@
+---
+kind: subpage
+---
+
 # ADR-00X: Automated Pod Rollouts Triggered by ConfigMap and Secret Changes
 
 Status: Proposed 

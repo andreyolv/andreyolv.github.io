@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Kubernetes High Availability: Topology Spread, Anti-Affinity, and Disruption Budgets
 
 ## Problem

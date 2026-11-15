@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Cost-Effective Kubernetes Compute Optimization with ARM-Based Nodes
 
 ## Problem

@@ -1,3 +1,7 @@
+---
+kind: subpage
+---
+
 # Policies
 
 ## Runner Selection

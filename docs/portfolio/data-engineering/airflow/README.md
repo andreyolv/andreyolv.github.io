@@ -1,3 +1,7 @@
+---
+kind: index
+---
+
 # Airflow on Kubernetes
 
 Apache Airflow workflow orchestration running on Kubernetes. This area covers DAG lifecycle, quality assurance, observability, migration, and operational governance for data batch workflows.

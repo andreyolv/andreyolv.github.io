@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Cloud Infrastructure as Code Provisioning with Terraform
 
 ## Problem

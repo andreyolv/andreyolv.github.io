@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Standardization of Apache Iceberg Table Format for Lakehouse
 
 ## Problem

@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Self-Hosted LLM Inference on Kubernetes with llmkube and llama.cpp
 
 ## Problem

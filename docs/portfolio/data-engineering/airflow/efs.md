@@ -1,3 +1,7 @@
+---
+kind: subpage
+---
+
 kubectl cp . airflow-dag-processor-7677669787-52ch6:/opt/airflow/dags/bp -c dag-processor
 
 du -h --max-depth=1 | sort -rh

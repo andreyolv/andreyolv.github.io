@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Performance Dashboard Monitoring for Postgres with PgHero
 
 ## Problem

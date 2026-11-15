@@ -1,3 +1,7 @@
+---
+kind: subpage
+---
+
 # Plano de Disaster Recovery Redes
 
 - Certificados TLS expirados

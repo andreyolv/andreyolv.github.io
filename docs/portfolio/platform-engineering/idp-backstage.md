@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Service Catalog and Internal Developer Portal for Kubernetes with Backstage
 
 ## Problem

@@ -1,3 +1,7 @@
+---
+kind: index
+---
+
 # Automated Infrastructure Terraform Deployment with GitHub Actions
 
 CI/CD automation for Terraform infrastructure delivery using GitHub Actions. This area covers planning, technical design, operations, and user guides for automated Terraform deployment pipelines.

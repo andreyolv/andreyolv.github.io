@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Disaster Recovery Strategy for Kubernetes and Cloud Infrastructure
 
 ## Problem

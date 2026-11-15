@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Budget-Based Cost Alerting and Governance for Cloud & Data Platform
 
 ## Problem

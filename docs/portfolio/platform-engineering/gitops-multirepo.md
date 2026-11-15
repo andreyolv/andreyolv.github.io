@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Multi-Repository GitOps for Safe Team Autonomy in Kubernetes 
 
 ## Problem

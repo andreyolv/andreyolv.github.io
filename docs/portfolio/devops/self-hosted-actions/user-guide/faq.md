@@ -1,3 +1,7 @@
+---
+kind: subpage
+---
+
 # FAQ
 
 ## Why not use GitHub-hosted runners?

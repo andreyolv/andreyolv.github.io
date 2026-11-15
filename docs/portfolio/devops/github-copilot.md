@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Software Development Productivity with GitHub Copilot
 
 ## Problem

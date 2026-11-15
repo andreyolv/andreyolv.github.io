@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Credential-Free Terraform and OpenTofu Linting in CI with TFLint
 
 ## Problem

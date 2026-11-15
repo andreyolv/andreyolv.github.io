@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Kafka to Delta Lakehouse: Real-Time Data Ingestion with PySpark Consumer
 
 ## Problem

@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Docker Image Internalization from Public Container Registry to Private Container Registry
 
 ## Problem

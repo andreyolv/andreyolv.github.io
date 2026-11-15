@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Legacy and Orphaned AWS Resource Decommissioning with AWS Resource Explorer
 
 ## Problem

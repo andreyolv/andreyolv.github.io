@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Database Observability with Percona Monitoring and Management
 
 ## Problem

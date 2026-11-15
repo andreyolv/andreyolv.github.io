@@ -1,3 +1,7 @@
+---
+kind: index
+---
+
 ```mermaid
 graph TD
     subgraph Kubernetes

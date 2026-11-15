@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Scalable Event-Driven Architecture for Data Enrichment and Integration
 
 ## Problem

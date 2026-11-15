@@ -1,3 +1,7 @@
+---
+kind: subpage
+---
+
 
 https://github.com/teamclairvoyant/airflow-maintenance-dags
 

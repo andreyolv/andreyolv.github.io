@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Python Artifact Repository for Internal Libraries on Kubernetes
 
 ## Problem

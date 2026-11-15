@@ -1,3 +1,7 @@
+---
+kind: subpage
+---
+
 # Runbook
 
 ## Consumer Pipeline Failing

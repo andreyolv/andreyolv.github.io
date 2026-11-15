@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # GitHub Repository Standardization as Code with Terraform
 
 ## Problem

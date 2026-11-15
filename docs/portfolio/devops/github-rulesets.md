@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Github Repository Governance and Compliance with GitHub Rulesets
 
 ## Problem

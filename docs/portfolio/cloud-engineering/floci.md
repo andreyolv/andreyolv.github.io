@@ -1,3 +1,9 @@
+---
+status: active
+environment: local
+kind: project
+---
+
 # Local Multi-Cloud Emulation for AWS, Azure and GCP Development with Floci
 
 ## Problem

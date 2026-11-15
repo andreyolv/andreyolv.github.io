@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Athena Cost Attribution by IAM Role, User and QuickSight Dataset with CloudTrail
 
 ## Problem

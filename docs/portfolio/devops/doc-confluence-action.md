@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Automated Documentation Updates from Github to Confluence with Github Actions
 ## Problem
 - Manual Documentation Synchronization: Documentation, especially MkDocs-generated sites, often needs manual updates between GitHub repositories and Confluence, resulting in outdated or inconsistent information across platforms.

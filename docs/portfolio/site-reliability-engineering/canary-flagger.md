@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Progressive Canary Deployments in Kubernetes with Flagger
 ## Problem
 - Unreliable Deployment Processes: Traditional Kubernetes deployment methods like recreate and rolling updates can lead to downtime or performance issues if problems aren't detected early.

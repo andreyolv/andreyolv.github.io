@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Dynamic Kubernetes Resource Optimization with Vertical Pod Autoscaler
 
 ## Problem

@@ -1,3 +1,7 @@
+---
+kind: subpage
+---
+
 # Airflow Policies
 
 Todas as DAGs do Airflow DEVEM seguir as políticas definidas a seguir.

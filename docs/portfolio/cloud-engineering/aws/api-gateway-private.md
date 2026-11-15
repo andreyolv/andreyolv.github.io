@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Private Amazon API Gateway with VPC Endpoint and Private DNS
 
 ## Problem

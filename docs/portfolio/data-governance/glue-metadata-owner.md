@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Glue Data Catalog Metadata Standardization and Table Ownership
 
 ## Problem

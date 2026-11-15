@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Azure Security Visibility and Response with Microsoft Defender for Cloud
 
 ## Problem

@@ -1,3 +1,7 @@
+---
+kind: subpage
+---
+
 airflow roles create api_test
 
 airflow roles add-perms api_test -a can_edit -r DAG:dummy_fail 

@@ -1,3 +1,7 @@
+---
+kind: subpage
+---
+
 # Airflow on Kubernetes
 ## Problem
 - deploy e manter infraestrutura de apache airflow no kubernetes de forma eficience e escalável para suportar centenas de dags rodando diarimente e milhares de tasks por dia.

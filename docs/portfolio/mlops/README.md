@@ -1,3 +1,7 @@
+---
+kind: index
+---
+
 # MLOps
 
 Machine learning operations, AI workflows, and model lifecycle management. This area covers orchestration of AI/ML pipelines, experiment tracking, and interactive model deployment on Kubernetes.

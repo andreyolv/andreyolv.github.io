@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Cloud Infrastructure Provisioning with IaC
 
 ## Problem

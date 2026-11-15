@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Amazon RDS Migrations: Region, Version and Topology Changes with Minimal Downtime
 
 ## Problem

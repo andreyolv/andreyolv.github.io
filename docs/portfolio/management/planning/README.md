@@ -1,3 +1,7 @@
+---
+kind: index
+---
+
 # Platform Planning
 
 Strategic planning for the data platform, including roadmaps and FinOps strategy. This area covers medium and long-term planning for building the platform and cost governance strategy.

@@ -1,3 +1,9 @@
+---
+status: active
+environment: local
+kind: project
+---
+
 # VSCode Extensions for Consistent Development Environments
 ## Problem
 - Inconsistent Tooling Across Teams: Developers working on the same project may use different VSCode extensions, leading to inconsistent behavior, linting, formatting, or missing features.

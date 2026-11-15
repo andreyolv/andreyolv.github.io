@@ -1,3 +1,7 @@
+---
+kind: subpage
+---
+
 # Tech Debt
 
 ## Candidate Items

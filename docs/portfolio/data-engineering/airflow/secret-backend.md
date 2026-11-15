@@ -1,3 +1,7 @@
+---
+kind: subpage
+---
+
 # Apache Airflow – Secret Backends com AWS Secrets Manager
 
 # Motivação

@@ -1,3 +1,7 @@
+---
+kind: subpage
+---
+
 # Arquitetura do Airflow
 •	Estrutural 
 o	Imagem Base

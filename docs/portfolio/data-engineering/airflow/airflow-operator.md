@@ -1,3 +1,7 @@
+---
+kind: subpage
+---
+
 SodaScanOperator
 
 https://docs.soda.io/soda-library/orchestrate-scans.html

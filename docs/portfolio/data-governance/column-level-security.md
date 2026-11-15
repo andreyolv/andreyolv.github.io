@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Column-Level Security for Fine-Grained Data Access Control
 
 ## Problem

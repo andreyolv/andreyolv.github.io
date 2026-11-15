@@ -1,3 +1,7 @@
+---
+kind: subpage
+---
+
 # CI/CD Pipelines for Airflow Projects: DAG Code Releases and Image Build with GitHub Actions
 ## Problem
 - Lack of CI/CD Workflows: Without automated CI/CD pipelines, Airflow DAG updates were managed manually, leading to inconsistent deployments and added complexity in tracking and deploying code across multiple repositories.

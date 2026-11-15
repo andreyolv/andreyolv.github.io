@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Data Lake Governance Standardization
 
 ## Problem

@@ -1,3 +1,7 @@
+---
+kind: index
+---
+
 # Data Governance
 
 Data governance across the platform: catalog, lineage, quality, ownership and lifecycle

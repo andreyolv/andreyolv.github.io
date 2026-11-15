@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Optimizing Kubernetes Resource Allocation to VMs with Custom Kubernetes Scheduler
 
 ## Problem

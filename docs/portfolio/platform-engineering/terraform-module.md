@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Terraform Module: Automated IAM for Airflow via EKS Pod Identity
 
 ## Project Objectives

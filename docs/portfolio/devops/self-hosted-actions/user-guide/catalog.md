@@ -1,3 +1,7 @@
+---
+kind: subpage
+---
+
 # Catalog
 
 ## What This Provides

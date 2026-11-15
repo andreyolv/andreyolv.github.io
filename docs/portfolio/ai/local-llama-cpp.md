@@ -1,3 +1,9 @@
+---
+status: active
+environment: local
+kind: project
+---
+
 # Local LLM Inference with llama.cpp on Constrained Hardware
 
 ## Problem

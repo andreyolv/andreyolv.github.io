@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Descheduler of Airflow Stuck Pods for Kubernetes Resource and Cost Optimization
 
 ## Problem

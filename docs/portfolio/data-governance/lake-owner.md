@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Data Lake Ownership and Accountability Framework
 
 ## Problem

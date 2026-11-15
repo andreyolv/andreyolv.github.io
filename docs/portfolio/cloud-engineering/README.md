@@ -1,3 +1,7 @@
+---
+kind: index
+---
+
 # Cloud Engineering
 
 Cloud infrastructure, governance, and networking across AWS and Azure. This area covers Infrastructure as Code (IaC), account organization, networking, identity, and cost guardrails for cloud environments.

@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Provisioning Azure Databricks with Security Best Practices
 
 ## Problem

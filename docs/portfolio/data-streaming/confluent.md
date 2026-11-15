@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Real-Time Data Streaming with Confluent Cloud
 
 ## Problem

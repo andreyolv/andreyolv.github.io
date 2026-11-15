@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Standardized Redis Deployment on Kubernetes
 
 ## Problem

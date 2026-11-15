@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # S3 Object Lifecycle for the Data Lake: Retention, Storage Classes and Expiration Rules
 
 ## Problem

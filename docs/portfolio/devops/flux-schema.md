@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Kubernetes Manifest and CRD Validation in CI with flux-schema
 
 ## Problem

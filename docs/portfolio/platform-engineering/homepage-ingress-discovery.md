@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Cluster Homepage with Automatic Ingress URL Discovery
 
 ## Problem

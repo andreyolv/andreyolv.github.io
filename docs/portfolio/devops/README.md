@@ -1,3 +1,7 @@
+---
+kind: index
+---
+
 # DevOps
 
 CI/CD, GitHub Actions automation, container builds, GitOps, and developer tooling. This area covers pipeline automation, repository governance, image lifecycle, and platform reliability from code commit to production deployment.

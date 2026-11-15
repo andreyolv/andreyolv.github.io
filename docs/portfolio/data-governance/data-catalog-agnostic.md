@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Data Catalog GitHub Abstraction Layer
 
 ## Problem

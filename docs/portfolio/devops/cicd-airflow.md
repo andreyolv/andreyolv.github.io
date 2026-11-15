@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # CI/CD Pipelines for Airflow Projects: DAG Code Releases and Image Build with GitHub Actions
 
 ## Problem

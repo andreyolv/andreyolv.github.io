@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Platform Service Catalog with GitHub Issue Templates and Projects
 
 ## Problem

@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Data Governance and Data Metadata Platform with OpenMetadata
 
 ## Problem

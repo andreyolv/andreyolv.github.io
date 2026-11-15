@@ -1,3 +1,7 @@
+---
+kind: subpage
+---
+
 # Self-Hosted GitHub Actions on Kubernetes for Secure CI/CD
 
 ## Problem

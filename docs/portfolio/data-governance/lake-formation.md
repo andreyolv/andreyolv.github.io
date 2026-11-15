@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Centralized Data Lake Permissions with AWS Lake Formation
 
 ## Problem

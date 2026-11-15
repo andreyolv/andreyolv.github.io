@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # REST Iceberg Metadata Catalog with Lakekeeper
 
 ## Problem

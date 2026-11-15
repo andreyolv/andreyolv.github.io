@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Data Quality Management and Monitoring for Analytics Platforms
 
 ## Problem

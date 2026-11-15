@@ -1,3 +1,7 @@
+---
+kind: index
+---
+
 # Management
 
 Planning, documentation, and project execution for the data platform. This area covers roadmaps, FinOps strategy, service catalogs, and Agile/Scrum activity tracking with GitHub Projects.

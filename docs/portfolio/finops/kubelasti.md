@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Traffic-Based Pod Autoscaling with KubeElasti
 
 ## Problem

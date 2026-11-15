@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # User-Friendly Kubernetes UI for Logs and Pod Monitoring with Headlamp
 
 ## Problem

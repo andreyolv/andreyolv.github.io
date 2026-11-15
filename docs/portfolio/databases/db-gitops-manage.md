@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Declarative PostgreSQL Operations with Crossplane SQL Provider
 
 ## Problem

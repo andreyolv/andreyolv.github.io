@@ -1,3 +1,7 @@
+---
+kind: index
+---
+
 # RFC Scalable Data Engineering Platform Infrastructure
 
 ## Metadata

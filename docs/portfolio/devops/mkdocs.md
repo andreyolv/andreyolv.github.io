@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Standardized Technical Documentation Git-Integrated with MkDocs
 
 ## Problem

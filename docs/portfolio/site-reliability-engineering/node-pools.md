@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Kubernetes Node Pools Segmentation by Infrastructure Criticality
 
 ## Problem

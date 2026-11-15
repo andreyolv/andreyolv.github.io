@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Legacy Infrastructure as Code Refactoring and Modernization with Terraform
 
 ## Problem

@@ -1,3 +1,9 @@
+---
+status: active
+environment: non-production
+kind: project
+---
+
 # Ephemeral Pull Request Preview Environments on Kubernetes with Flux ResourceSet
 
 ## Problem

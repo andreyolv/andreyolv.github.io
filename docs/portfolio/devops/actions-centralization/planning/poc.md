@@ -1,3 +1,7 @@
+---
+kind: subpage
+---
+
 # PoC
 
 ## Goal

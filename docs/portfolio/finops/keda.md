@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Event-Driven Autoscaling in Kubernetes Using KEDA for Resource and Cost Optimization
 
 ## Problem

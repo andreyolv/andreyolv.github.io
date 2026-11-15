@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Code Quality Standardization with Linters and Pre-Commit
 
 ## Problem

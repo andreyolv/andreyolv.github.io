@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Data Development Environment on Kubernetes with Custom Helm Chart
 
 ## Problem

@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Custom Kubernetes Operator for Continuous Secret Synchronization with SenhaSegura
 
 ## Problem

@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Kubernetes Cost Allocation by Project with Opencost
 
 ## Problem

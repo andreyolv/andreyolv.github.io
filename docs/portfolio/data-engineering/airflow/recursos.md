@@ -1,3 +1,7 @@
+---
+kind: subpage
+---
+
 # Monitoramento de Recursos de Tasks do Airflow pelo Grafana
 •	Introdução
 •	Recursos do Kubernetes 

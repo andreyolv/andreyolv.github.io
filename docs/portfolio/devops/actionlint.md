@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Static Validation of GitHub Actions Workflows with actionlint
 
 ## Problem

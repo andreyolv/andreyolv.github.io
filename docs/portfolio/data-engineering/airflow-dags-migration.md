@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Airflow DAG Migration & Pipeline Modernization
 
 ## Problem

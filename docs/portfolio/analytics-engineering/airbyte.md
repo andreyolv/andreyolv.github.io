@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Data Ingestion with Airbyte for Small Distributed Teams
 
 ## Problem

@@ -1,3 +1,7 @@
+---
+kind: index
+---
+
 # Data Streaming
 
 Real-time data ingestion and stream processing: CDC into Kafka, stream processing with Flink

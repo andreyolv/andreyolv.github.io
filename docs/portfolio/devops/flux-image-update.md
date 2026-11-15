@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Kubernetes Image Update Automation with Flux
 
 ## Problem

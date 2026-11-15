@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # AWS IAM Hardening: MFA Enforcement and Role-Based Workloads without Personal Credentials
 
 ## Problem

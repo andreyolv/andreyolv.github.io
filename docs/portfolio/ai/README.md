@@ -1,3 +1,7 @@
+---
+kind: index
+---
+
 # AI
 
 Artificial intelligence engineering, local and self-hosted LLM inference, LLM-assisted development, and AI-native workflows. This area covers projects where AI is the product, the inference runtime, or the primary development tool.

@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Standardized Terraform CI/CD with GitHub Actions
 
 ## Problem

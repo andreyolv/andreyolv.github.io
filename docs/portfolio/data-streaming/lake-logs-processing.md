@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Spark Streaming for Temporal Data Lake Access Auditing
 
 # Problem

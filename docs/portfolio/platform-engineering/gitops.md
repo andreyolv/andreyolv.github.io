@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Declarative GitOps Infrastructure Delivery on Kubernetes with Flux
 
 ## Problem

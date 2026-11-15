@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Provisioning Amazon Redshift Serverless with Public Access Control
 
 ## Problem

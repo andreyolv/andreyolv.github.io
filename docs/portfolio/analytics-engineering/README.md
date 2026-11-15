@@ -1,3 +1,7 @@
+---
+kind: index
+---
+
 # RFC: Analytics Engineering Framework
 
 ## Metadata

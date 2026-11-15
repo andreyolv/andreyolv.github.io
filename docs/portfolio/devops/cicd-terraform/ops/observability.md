@@ -1,3 +1,7 @@
+---
+kind: subpage
+---
+
 # Observability
 
 ## What to Monitor

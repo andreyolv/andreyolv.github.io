@@ -1,3 +1,7 @@
+---
+kind: subpage
+---
+
 # Spot
 
 ## Tipos de Máquinas Virtuais

@@ -1,3 +1,7 @@
+---
+kind: index
+---
+
 # Platform Engineering
 
 Internal developer platform, self-service infrastructure, GitOps delivery, cluster tooling, and Kubernetes operators. This area covers the platform capabilities that enable teams to deploy, operate, and observe workloads safely and autonomously.

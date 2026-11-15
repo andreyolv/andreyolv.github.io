@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Standardized Neo4j Database Deployment on Kubernetes
 
 ## Problem

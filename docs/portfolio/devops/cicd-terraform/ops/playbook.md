@@ -1,3 +1,7 @@
+---
+kind: subpage
+---
+
 # Playbook
  
  ## Routine Operations

@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Kubernetes Resource Efficiency Index per Namespace and Workload
 
 ## Problem

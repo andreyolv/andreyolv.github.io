@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # StorageClass Migration for Persistent Volumes on Kubernetes with Velero
 
 ## Problem

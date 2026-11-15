@@ -1,3 +1,7 @@
+---
+kind: subpage
+---
+
 # Observability
 
 - Falta de entendimento de métricas importantes para construação de dashboards de monitoramento

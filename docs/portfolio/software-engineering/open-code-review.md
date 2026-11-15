@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Automated LLM Pull Request Review with Open Code Review and GitHub Actions
 
 ## Problem

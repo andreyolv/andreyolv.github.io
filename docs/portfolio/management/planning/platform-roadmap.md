@@ -1,3 +1,7 @@
+---
+kind: subpage
+---
+
 # Data Platform Roadmap: Medium and Long-Term Planning for Building the Platform
 
 ## Context

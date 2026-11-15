@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Kubernetes & Cloud Tools Lifecycle and Update Management
 
 ## Problem

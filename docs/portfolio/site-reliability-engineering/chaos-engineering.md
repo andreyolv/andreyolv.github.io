@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Kubernetes Resilience using Chaos Engineering Experiments with Litmus
 ## Problem
 - System Resilience Uncertainty: Complex Kubernetes environments can exhibit unpredictable behavior under failure scenarios, challenging system reliability.

@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Unified Metadata Management for Data Projects
 
 ## Problem

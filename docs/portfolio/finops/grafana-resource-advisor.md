@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Memory & CPU Resources Advisor for Kubernetes Workloads with Grafana Dashboards
 
 ## Problem

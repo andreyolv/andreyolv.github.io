@@ -1,3 +1,7 @@
+---
+kind: subpage
+---
+
 # FAQ
  
  ## Why not copy workflows into each repo?

@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Kubernetes Cost Savings with Dynamic NodePools Autoscaling and Right-Sizing with Karpenter
 
 ## Problem

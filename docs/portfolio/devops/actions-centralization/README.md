@@ -1,3 +1,7 @@
+---
+kind: index
+---
+
 # Reusable GitHub Actions Workflow Templates
 
 Centralized and standardized CI/CD workflows for multi-repository projects. This area covers reusable workflow templates, composite actions, governance, observability, operations, and user guides for centralized GitHub Actions consumption.

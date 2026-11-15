@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Real-Time SQL Server Data Ingestion with Debezium Change Data Capture
 
 ## Problem

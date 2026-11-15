@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Shared Storage for Airflow & OpenMetadata via Amazon EFS
 
 ## Problem

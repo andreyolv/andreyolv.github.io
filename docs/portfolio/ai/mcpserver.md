@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Centralized Pipeline Management and Execution with MCPServer
 
 ## Problem

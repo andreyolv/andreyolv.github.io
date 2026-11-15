@@ -1,3 +1,7 @@
+---
+kind: subpage
+---
+
 # Backups/Restores
 
 - Backup inexistente

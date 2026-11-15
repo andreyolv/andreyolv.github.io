@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Centralized Query Routing Across Multiple Trino Clusters with Trino Gateway
 
 ## Problem

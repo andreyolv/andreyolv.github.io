@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Data Batch Workflow Orchestration with Apache Airflow on Kubernetes
 
 ## Problem

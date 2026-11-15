@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # PostgreSQL and MySQL Ingestion into the Data Lake with AWS DMS Full Load and CDC
 
 ## Problem

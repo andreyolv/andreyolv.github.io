@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Secure S3 Bucket Data Sharing via Partner IP Whitelisting
 
 ## Problem

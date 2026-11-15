@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # DataLake Access Auditing and Governance
 
 ## Problem

@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Cloud Cost Savings with SavingPlans & Instance Reservation
 
 ## Problem

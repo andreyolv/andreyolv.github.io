@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Automated Release Versioning with GitHub Pull Requests
 
 ## Problem

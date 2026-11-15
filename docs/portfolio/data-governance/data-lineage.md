@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Data Lineage for End-to-End Data Visibility and Governance
 
 ## Problem

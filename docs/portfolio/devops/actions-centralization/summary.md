@@ -1,3 +1,7 @@
+---
+kind: subpage
+---
+
 # Reusable GitHub Actions Workflow Templates for for Multi-Repository CI/CD Projects
 
 ## Problem

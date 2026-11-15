@@ -1,3 +1,9 @@
+---
+status: active
+environment: local
+kind: project
+---
+
 # Declarative Linux Package Management with Devbox and Nix
 ## Problem
 - Inconsistent Development Environments: Developers often struggle with replicating the exact same local setup across different machines or teams, leading to the classic "it works on my machine" issue.

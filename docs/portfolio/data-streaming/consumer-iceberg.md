@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Streaming Data Ingestion from Kafka into Iceberg Lakehouse with Kafka Connect
 
 ## Problem

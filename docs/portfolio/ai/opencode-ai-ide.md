@@ -1,3 +1,9 @@
+---
+status: active
+environment: local
+kind: project
+---
+
 # AI-Native Development with OpenCode as an AI IDE
 
 ## Problem

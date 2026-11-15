@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Container Registry Insights and Image Lifecycle Management
 
 ## Problem

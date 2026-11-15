@@ -1,3 +1,7 @@
+---
+kind: subpage
+---
+
 # Planning
 
 This checklist outlines the sequential steps required to fully implement and validate the project.

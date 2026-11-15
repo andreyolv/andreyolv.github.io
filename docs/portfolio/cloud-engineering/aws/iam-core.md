@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # AWS IAM Governance: Tag-Based Access Control (ABAC) & Security Enforcement
 
 ## Problem

@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Self-Hosted GitHub Actions on Kubernetes for Secure CI/CD
 ## Problem
 - Accessing Internal Services via Private Endpoints: GitHub Actions workflows running on public infrastructure couldn't securely access internal services, which were only available via private endpoints. This created a significant security risk, as workflows requiring sensitive resources could not run effectively.

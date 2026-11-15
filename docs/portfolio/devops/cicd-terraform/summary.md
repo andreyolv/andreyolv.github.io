@@ -1,3 +1,7 @@
+---
+kind: subpage
+---
+
 # Standardized Terraform CI/CD with GitHub Actions
  
 ## Problem

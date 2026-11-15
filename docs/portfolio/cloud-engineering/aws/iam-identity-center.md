@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Centralized Human Access to AWS with IAM Identity Center Single Sign-On
 
 ## Problem

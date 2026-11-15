@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Airflow DAG Cleanup, Organization and Ownership Governance
 
 ## Problem

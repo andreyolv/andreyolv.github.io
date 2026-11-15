@@ -1,3 +1,7 @@
+---
+kind: subpage
+---
+
 ##	Lineage
 
 ##	Custom Python Package

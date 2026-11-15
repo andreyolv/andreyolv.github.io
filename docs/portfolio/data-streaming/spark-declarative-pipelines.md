@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Continuous Data Ingestion into the Lakehouse with Spark Declarative Pipelines
 
 ## Problem

@@ -1,3 +1,7 @@
+---
+kind: subpage
+---
+
 # Kubernetes
 
 - Nós em status NotReady por longo períogo (geralmente estouro de memória, por isso importante executor_config no airflow setando recursos)

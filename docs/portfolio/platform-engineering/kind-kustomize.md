@@ -1,3 +1,9 @@
+---
+status: active
+environment: local
+kind: project
+---
+
 # Productive Local Kubernetes Cluster with GitOps
 
 ## Problem

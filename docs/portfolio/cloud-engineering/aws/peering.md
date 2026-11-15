@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # VPC Peering Cross-Account Connectivity for Data & Tech Networks
 
 ## Problem

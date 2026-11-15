@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Real Time Streaming Processing on Kubernetes with Apache Flink
 
 ## Problem

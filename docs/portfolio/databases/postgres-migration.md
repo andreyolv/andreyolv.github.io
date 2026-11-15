@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # PostgreSQL Database Migration Process on Kubernetes
 
 ## Problem

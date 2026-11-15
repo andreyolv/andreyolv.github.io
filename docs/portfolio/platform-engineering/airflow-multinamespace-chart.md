@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Custom Helm Chart for Airflow Deployment Across Multiple Namespaces
 
 ## Problem

@@ -1,3 +1,7 @@
+---
+kind: subpage
+---
+
 # Automated Pod Rollouts Triggered by ConfigMap and Secret Changes
 
 ## Problem

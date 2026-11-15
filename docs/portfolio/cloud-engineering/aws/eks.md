@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Kubernetes Cluster Provisioning in Cloud Environments
 
 ## Problem

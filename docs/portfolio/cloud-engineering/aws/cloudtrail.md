@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Centralized AWS API Auditing and Investigation with CloudTrail and Athena
 
 ## Problem

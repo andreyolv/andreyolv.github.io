@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Metadata-Driven Health Monitoring and Maintenance for Iceberg Lakehouse Tables
 
 ## Problem

@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Lightweight Cost-Effective Data Processing for Analytics with DuckDB
 
 ## Problem

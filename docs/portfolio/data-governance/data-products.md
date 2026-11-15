@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Standardization of Data Products for Scalable Analytics Platforms
 
 ## Problem

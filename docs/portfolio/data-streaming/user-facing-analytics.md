@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Real-Time User-Facing Analytics with StarRocks
 
 ## Problem

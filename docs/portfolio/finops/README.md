@@ -1,3 +1,7 @@
+---
+kind: index
+---
+
 RFC: Governance and Cost Allocation Strategy (FinOps)
 
 Status: Draft

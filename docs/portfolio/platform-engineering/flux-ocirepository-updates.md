@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Automated Version and Digest Updates for Flux OCIRepository Artifacts with Renovate
 
 ## Problem

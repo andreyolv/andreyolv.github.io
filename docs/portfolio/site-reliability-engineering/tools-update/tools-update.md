@@ -1,3 +1,7 @@
+---
+kind: subpage
+---
+
 # Atualização de Ferramentas Kubernetes
 
 ## Procedimento

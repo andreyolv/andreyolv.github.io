@@ -1,3 +1,7 @@
+---
+kind: subpage
+---
+
 # Airflow Observability
 
 ## Kubernetes Infrastructure

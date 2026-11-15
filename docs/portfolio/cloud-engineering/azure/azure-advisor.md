@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Azure Cost Optimization and Performance Improvement with Azure Advisor
 
 ## Problem

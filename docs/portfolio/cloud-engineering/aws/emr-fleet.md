@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Cost-Resilient EMR Clusters with Instance Fleets and Spot Diversification
 
 ## Problem

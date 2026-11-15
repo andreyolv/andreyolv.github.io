@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # RabbitMQ Messaging Topology Kubernetes Operator
 
 ## Problem

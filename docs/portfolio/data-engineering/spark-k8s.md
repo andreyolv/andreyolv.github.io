@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Scalable Big Data Processing Batch Workloads on Kubernetes with Apache Spark
 
 ## Problem

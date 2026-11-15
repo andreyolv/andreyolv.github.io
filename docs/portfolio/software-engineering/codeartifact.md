@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Managed Package Repository for Internal Libraries and Upstream Caching with AWS CodeArtifact
 
 ## Problem

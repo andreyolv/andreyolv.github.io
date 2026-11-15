@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # TLS Certificate Management for AWS Services with AWS Certificate Manager
 
 ## Problem

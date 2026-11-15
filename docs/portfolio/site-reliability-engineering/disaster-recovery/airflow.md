@@ -1,3 +1,7 @@
+---
+kind: subpage
+---
+
 # Airflow 
 P: Perda de Variáveis e Conexões
 S: 

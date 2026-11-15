@@ -1,3 +1,7 @@
+---
+kind: index
+---
+
 # Kubernetes & Cloud Tools Lifecycle and Update Management
 
 Lifecycle and update management for Kubernetes and cloud infrastructure tools. This area covers the changelog and tool update processes.

@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Cost-Effective Open-Source Data Visualization with Metabase
 
 ## Problem

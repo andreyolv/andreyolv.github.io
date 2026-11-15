@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # GitHub Organization Cleanup: Repository Archiving, Ownership and Access Governance
 
 ## Problem

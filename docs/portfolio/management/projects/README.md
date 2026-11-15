@@ -1,3 +1,7 @@
+---
+kind: index
+---
+
 # Project & Activity Management
 
 Agile activity management and project tracking for the data platform using GitHub Projects. This area covers Scrum and Agile workflow management.

@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Interactive Machine Learning Model Deployment with Streamlit
 
 ## Problem

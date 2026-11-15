@@ -1,3 +1,7 @@
+---
+kind: index
+---
+
 # Software Engineering
 
 Code quality, package management, messaging, and developer productivity tooling. This area covers artifact repositories, linting standards, automated code review, messaging topology, and dependency management for internal software development.

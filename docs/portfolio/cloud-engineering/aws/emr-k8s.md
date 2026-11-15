@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # EMR on EKS
 
 ## Problem

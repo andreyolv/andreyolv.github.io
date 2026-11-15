@@ -1,3 +1,7 @@
+---
+kind: index
+---
+
 # Self-Hosted GitHub Actions on Kubernetes
 
 Self-hosted GitHub Actions runners running on Kubernetes for secure CI/CD. This area covers planning, technical design, operations, and user guides for self-hosted Actions infrastructure.

@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Event Streaming Platform on Kubernetes with Apache Kafka and Strimzi
 
 ## Problem

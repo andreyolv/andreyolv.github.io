@@ -1,3 +1,7 @@
+---
+kind: subpage
+---
+
 # Overview - Airflow no Kubernetes
 ## Introdução
 O Apache Airflow é uma plataforma de orquestração de fluxo de trabalho de código aberto. Ele começou como um projeto interno na Airbnb em 2014 e foi lançado como código aberto em 2016 no Apache Software Foundation.

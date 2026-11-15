@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Virtualized Kubernetes Clusters for Multi-Team Isolation with vCluster
 ## Problem
 - Cluster Sprawl & High Costs: Provisioning separate Kubernetes clusters for each team (e.g., Data, Backend, QA) increases infrastructure and maintenance costs significantly.

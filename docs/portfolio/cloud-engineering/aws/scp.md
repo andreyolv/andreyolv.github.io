@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Preventive Cloud Guardrails Across AWS Accounts with Service Control Policies
 
 ## Problem

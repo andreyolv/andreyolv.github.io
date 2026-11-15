@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Machine Learning Lifecycle Management with MLflow
 
 ## Problem

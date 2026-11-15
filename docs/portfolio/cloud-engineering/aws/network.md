@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Cloud Network Architecture for Kubernetes Clusters
 
 ## Problem

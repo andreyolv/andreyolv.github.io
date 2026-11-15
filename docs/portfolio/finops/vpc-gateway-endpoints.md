@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # NAT Gateway Cost Reduction with VPC Gateway Endpoints for S3 and DynamoDB
 
 ## Problem

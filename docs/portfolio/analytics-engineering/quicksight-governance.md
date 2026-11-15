@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Amazon QuickSight Metadata Extraction for BI Governance and Cost Visibility
 
 ## Problem

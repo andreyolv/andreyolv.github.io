@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Automated Lambda Deployment via GitHub Actions
 
 ## Problem

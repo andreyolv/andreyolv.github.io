@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Airflow DAGs Quality and Governance Policies
 
 ## Problem

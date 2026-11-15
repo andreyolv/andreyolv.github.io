@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Python Dependency and Environment Management with UV
 
 ## Problem

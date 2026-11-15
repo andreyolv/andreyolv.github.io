@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Public and Private DNS Management with Amazon Route 53
 
 ## Problem

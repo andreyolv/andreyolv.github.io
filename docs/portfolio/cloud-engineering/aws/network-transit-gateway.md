@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Multi-Account AWS Network Architecture Planning Ready for Transit Gateway
 
 ## Problem

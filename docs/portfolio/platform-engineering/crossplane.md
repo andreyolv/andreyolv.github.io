@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Self-Service Infrastructure Platform Engineering with Crossplane
 
 ## Problem

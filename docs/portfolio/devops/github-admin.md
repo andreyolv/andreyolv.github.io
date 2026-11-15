@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # GitHub Administration and Security Governance
 
 ## Problem

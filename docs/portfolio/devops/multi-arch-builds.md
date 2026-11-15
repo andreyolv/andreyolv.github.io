@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Multi-Architecture Container Builds with GitHub Actions on Self-Hosted Runners
 
 ## Problem

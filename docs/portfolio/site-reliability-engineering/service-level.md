@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Service Level Indicators for Data Platforms on Kubernetes and Cloud
 ## Problem
 - Lack of Reliability Metrics: Data pipelines and data services had no clear, measurable indicators to define what “healthy” or “reliable” meant.

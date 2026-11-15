@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Distributed Analytics Query Engine with Trino on Kubernetes
 
 ## Problem

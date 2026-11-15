@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # GitHub Repository Templating for Automated Project Setup with Backstage
 ## Problem
 - Manual Repository Creation: Manually creating new repositories is time-consuming and error-prone, slowing down the process of initiating new projects and creating inconsistencies across repositories.

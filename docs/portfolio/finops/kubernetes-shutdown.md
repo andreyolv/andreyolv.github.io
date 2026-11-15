@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Scheduled Kubernetes Cluster Shutdown for Cost Optimization
 
 ## Problem

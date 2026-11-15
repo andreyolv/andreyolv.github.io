@@ -1,3 +1,7 @@
+---
+kind: subpage
+---
+
 # FAQ
  
  ## Why keep the plan artifact from PR to merge?

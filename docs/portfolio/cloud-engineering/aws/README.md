@@ -1,3 +1,7 @@
+---
+kind: index
+---
+
 # AWS
 
 Amazon Web Services infrastructure, governance, networking, identity, and data services. This area covers cloud provisioning, security hardening, cost optimization, and operational guardrails across AWS accounts.

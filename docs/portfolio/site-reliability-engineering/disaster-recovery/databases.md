@@ -1,3 +1,7 @@
+---
+kind: subpage
+---
+
 # Databases
 
 - Perda total do banco / Banco corrompido

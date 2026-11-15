@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # AWS Data Transfer Cost Visibility and Reduction with CUR Data Exports
 
 ## Problem

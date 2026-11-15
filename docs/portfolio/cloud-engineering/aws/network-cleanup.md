@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # AWS Network Hygiene: Cleanup of Unused Network Components and Security Groups
 
 ## Problem

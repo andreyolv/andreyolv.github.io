@@ -1,3 +1,7 @@
+---
+kind: standard
+---
+
 LISTAR
 
     Recursos sem Tags

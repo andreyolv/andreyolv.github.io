@@ -1,3 +1,7 @@
+---
+kind: standard
+---
+
 # Cloud Resource Tag Standardization and Governance
 
 ## Problem

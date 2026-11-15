@@ -1,3 +1,7 @@
+---
+kind: subpage
+---
+
 # FinOps Strategy for the Data Platform: From Visibility to Governed Cost
 
 ## Context

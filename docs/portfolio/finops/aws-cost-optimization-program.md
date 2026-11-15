@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # AWS Data Platform Cost Optimization Program: Visibility, Rightsizing, Decommissioning and Governance
 
 ## Problem

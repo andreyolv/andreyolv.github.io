@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Small Files Monitoring and Optimization for Data Lakes Cost Performance
 
 ## Problem
