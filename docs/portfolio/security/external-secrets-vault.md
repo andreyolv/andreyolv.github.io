@@ -63,6 +63,6 @@ graph TD
 
 - Kubernetes
 
-## Documentação técnica completa
+## Technical documentation
 
-Para ADRs, runbooks, patterns, anti-patterns, system design detalhado e manifests de implementação, consulte o [repositório pikakube](https://github.com/andreyolv/pikakube) — documentação de realm/dia a dia do External Secrets Operator, mantida junto dos manifests em `infrastructure/security/2-cluster/secrets/integrations/external-secrets/`.
+For ADRs, runbooks, patterns, anti-patterns, system design and implementation manifests, consult the [pikakube repository](https://github.com/andreyolv/pikakube) — day-to-day documentation of the External Secrets Operator, kept alongside the manifests in `infrastructure/security/2-cluster/secrets/integrations/external-secrets/`.
