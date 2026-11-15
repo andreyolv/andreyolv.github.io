@@ -33,3 +33,7 @@ kind: project
 - Kyverno
 
 - Kubernetes
+
+## Technical documentation
+
+For ADRs, runbooks, policies, examples and implementation manifests, consult the [pikakube repository](https://github.com/andreyolv/pikakube) — day-to-day documentation of Kyverno, kept alongside the manifests in `infrastructure/security/2-cluster/policies/kyverno/`.
