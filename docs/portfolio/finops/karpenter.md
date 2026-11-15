@@ -10,6 +10,37 @@
 
 - Right-Sizing with Consolidation and Spot-to-Spot Optimization: Utilized Karpenter's consolidation feature to automatically merge underutilized nodes, optimizing resource allocation and minimizing waste. Additionally, implemented Spot-to-Spot optimization to intelligently reallocate workloads across Spot instances, mitigating interruptions while maximizing cost savings.
 
+## Architecture
+
+```mermaid
+graph LR
+    subgraph Kubernetes[Kubernetes Cluster]
+
+        subgraph Workloads[Workloads]
+            Pods[Application Pods]
+        end
+
+        subgraph Karpenter[Dynamic Node Provisioning with Karpenter]
+            
+            subgraph CRDs[Karpenter CRDs]
+                NodePool[NodePool]
+                NodeClaim[NodeClaim]
+            end
+
+            Nodes[Cluster Nodes]
+        end
+
+    end
+
+    %% Correct flow
+    Pods -->|request resources| NodePool
+    NodePool -->|creates| NodeClaim
+    NodeClaim -->|provisions| Nodes
+
+    %% Right-sizing / consolidation feedback
+    Nodes -->|consolidation & right-sizing| NodePool
+```
+
 ## Skills
 - DevOps
 

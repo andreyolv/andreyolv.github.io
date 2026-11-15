@@ -11,6 +11,14 @@
 
 - Integration with Backstage: Integrated the repository creation process into Backstage, enabling teams to request new repositories via a user-friendly interface. This streamlined the workflow and minimized manual intervention, further reducing the risk of inconsistencies.
 
+## Architecture
+
+```mermaid
+graph LR
+    User[User] -->|runs| Cookiecutter[Cookiecutter Templates]
+    Cookiecutter -->|creates| GitHubRepo[GitHub Repository (pre-configured)]
+```
+
 ## Skills
 - DevOps
 

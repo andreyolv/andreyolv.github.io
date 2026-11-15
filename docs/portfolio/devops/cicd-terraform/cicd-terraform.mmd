@@ -20,15 +20,15 @@ graph LR
         end
     end
 
-    %% Fluxo de Execução
+    %% Execution flow
     PR -->|Trigger| Plan
     Plan -->|on Merge| Apply
     
-    %% Permissões e Acesso
+    %% Permissions and access
     Apply -->|Assume| ApplyRole
     ApplyRole -->|Create/Update| AWS
     
-    %% Gestão de Estado
+    %% State management
     Apply -->|Writes to| S3Backend
     S3Backend -->|Isolated by| Workspaces
     S3Backend -.->|Access Control| StateRole

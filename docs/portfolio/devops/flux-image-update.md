@@ -14,6 +14,62 @@
 
 - Container Registry Cleanup: This process leads to frequent image builds, it is important to manage the number of images in the registry with an automatic cleanup routine that delete outdated images, ensuring efficient container registry storage and cost control.
 
+## Architecture
+
+```mermaid
+graph TD
+
+    subgraph ApplicationRepo[Application Repository]
+        direction TB
+        Code[Application Code]
+
+        subgraph Actions[GitHub Actions]
+            Build[Build Docker Image]
+            Push[Push to Registry]
+        end
+    end
+
+    subgraph Registry[Container Registry]
+        Images[Container Images]
+    end
+
+    subgraph Kubernetes[Kubernetes]
+
+        subgraph Flux[Flux]
+
+            subgraph CRDs[Flux CRDs]
+                IR[ImageRepository]
+                IP[ImagePolicy]
+                IA[ImageUpdateAutomation]
+            end
+
+            subgraph Controllers[Controllers]
+                Reflector[Image Reflector]
+                Automation[Image Automation]
+            end
+        end
+
+    end
+
+    subgraph DataOpsRepo[DataOps Repository]
+        Manifests[Kubernetes Manifests]
+    end
+
+    %% -------- Flow with valid labels --------
+    Code -->|commit| Build
+    Build -->|artifact| Push
+    Push -->|new image| Images
+
+    Images -->|monitor| IR
+    IR -->|reflect image tags| Reflector
+    Reflector -->|evaluate policy| IP
+
+    IP -->|trigger automation| Automation
+    IA -->|automation rules| Automation
+
+    Automation -->|update image| Manifests
+```
+
 ## Skills
 - DevOps
 

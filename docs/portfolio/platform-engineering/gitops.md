@@ -20,6 +20,58 @@
 
 - Seamless Artifact Deployment: Flux allows for the deployment of artifacts stored in multiple repositories (Helm, Git, OCI) through a unified process, making it easier to manage and deploy these artifacts efficiently.
 
+## Architecture
+
+```mermaid
+graph LR
+
+    Repo[Infra Git Repository]
+
+    subgraph Kubernetes[Kubernetes]
+
+        subgraph Flux[Flux Operator]
+
+            subgraph Controllers[Flux Controllers]
+                SourceController[Source Controller]
+                KustomizeController[Kustomize Controller]
+                HelmController[Helm Controller]
+            end
+
+            subgraph CRDs[Flux CRDs]
+                GitRepo[GitRepository]
+                OCIRepo[OCIRepository]
+                HelmRepo[HelmRepository]
+
+                Kustom[Kustomization]
+                HelmRelease[HelmRelease]
+            end
+
+        end
+
+        Workloads[Workloads]
+    end
+
+    %% -------- Flow --------
+
+    %% External Git Repo → Flux GitRepository
+    Repo --> GitRepo
+
+    %% Source Controller watches repositories
+    GitRepo -->|tracked by| SourceController
+    OCIRepo -->|tracked by| SourceController
+    HelmRepo -->|tracked by| SourceController
+    SourceController --> HelmRelease
+    GitRepo --> Kustom
+
+    %% CRDs trigger controllers
+    Kustom --> KustomizeController
+    HelmRelease --> HelmController
+
+    %% Controllers apply to the cluster
+    KustomizeController --> Workloads
+    HelmController --> Workloads
+```
+
 ## Skills
 - DevOps
 

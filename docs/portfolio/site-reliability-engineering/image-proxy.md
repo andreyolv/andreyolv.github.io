@@ -18,6 +18,41 @@
 
 - Auditability and Change Tracking: GitHub Actions workflows ensure that all changes to images are tracked and auditable, providing visibility into when images were internalized, tagged, and scanned for vulnerabilities.
 
+## Architecture
+
+```mermaid
+graph LR
+
+    subgraph Kubernetes[Kubernetes]
+        Workload[Kubernetes Workload]
+        Kyverno[Kyverno Mutation Policy]
+
+        Workload -->|mutated by| Kyverno
+        Kyverno -->|mutate Image ECR prefix | Workload
+    end
+
+    subgraph AWS[AWS]
+        ECRCache[ECR Pull Through Cache]
+        ECRPrivate[ECR Private Repositories]
+
+        ECRCache -->|Store Cached Image| ECRPrivate
+    end
+
+    subgraph Public_Registries[Public Registries]
+        DockerHub[docker.io]
+        Quay[quay.io]
+        K8sRegistry[registry.k8s.io]
+    end
+
+    Workload -->|Pull Image| ECRCache
+
+    ECRCache --> DockerHub
+    ECRCache --> Quay
+    ECRCache --> K8sRegistry
+
+    ECRPrivate -->|Serve Image| Workload
+```
+
 ## Skills
 - DevOps
 

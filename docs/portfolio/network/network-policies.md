@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Network Isolation and Traffic Control in Kubernetes with Network Policies
 
 # Problem

@@ -14,6 +14,71 @@
 
 - Preventing Overuse and Interruptions: By exposing workloads that consistently exceed their requested resources, the dashboards help mitigate risks of interruptions, particularly in environments using VMs Spot. This allows users adjust resource requests to avoid.potential disruptions.
 
+## Architecture
+
+```mermaid
+graph LR
+    subgraph Kubernetes["Kubernetes"]
+        Pods["Pods"]
+        
+        subgraph Prometheus["Prometheus Stack"]
+            KSM["kube-state-metrics"]
+            MetricsServer["metrics-server"]
+        end
+    end
+
+    subgraph Grafana["Grafana Dashboard"]
+        subgraph Requested["Requested"]
+            RCPU["CPU"]
+            RMem["Memory"]
+        end
+
+        subgraph Usage["Usage"]
+            UCPU["CPU Usage"]
+            UMem["Memory Usage"]
+        end
+
+        ResourceAdvisor["Resource Advisor Dashboards"]
+        
+        R-U["Requested > Usage"]
+        U-R["Usage > Requested"]
+
+        subgraph Waste["Resource Waste"]
+            WasteCPU["CPU"]
+            WasteMem["Memory"]
+        end
+
+        subgraph Risk["Associated Risk"]
+            RiskCPU["CPU Throttling"]
+            RiskMem["Memory OOM"]
+        end
+    end
+
+    %% Metrics collection
+    Pods --> KSM
+    Pods --> MetricsServer
+
+    KSM --> RCPU
+    KSM --> RMem
+    MetricsServer --> UCPU
+    MetricsServer --> UMem
+
+    %% Dashboards aggregation
+    RCPU --> ResourceAdvisor
+    RMem --> ResourceAdvisor
+    UCPU --> ResourceAdvisor
+    UMem --> ResourceAdvisor
+
+    ResourceAdvisor --> R-U
+    ResourceAdvisor --> U-R
+
+    %% Impacts from differences
+    R-U --> WasteCPU
+    R-U --> WasteMem
+    U-R --> RiskCPU
+    U-R --> RiskMem
+```
+
 ## Skills
 - DevOps
 

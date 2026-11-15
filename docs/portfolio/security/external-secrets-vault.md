@@ -12,6 +12,35 @@
 
 - Dynamic Secret Rotation: With Azure Key Vault’s built-in rotation capabilities, secrets are automatically kept up-to-date and synchronized with Kubernetes. This eliminates manual updates and minimizes the risk of human error while ensuring that secrets are always fresh and secure.
 
+## Architecture
+
+```mermaid
+graph TD
+    User[Users] -->|create and update secrets | AKV
+
+    subgraph Azure [Azure]
+        AKV[Azure Key Vault]
+    end
+
+    AKV -- referenced by --> ClusterSecretStore
+    
+    subgraph Kubernetes [Kubernetes]
+        direction TD      
+        subgraph ESO_Resources [ESO Custom Resources]
+            ClusterSecretStore[ClusterSecretStore]
+            ExternalSecret[ExternalSecret]
+
+            ClusterSecretStore -- referenced by --> ExternalSecret
+        end
+
+        Secret[Secret]
+        Pods[Pods]
+    end
+
+    ExternalSecret -- syncs --> Secret
+    Secret -- used by --> Pods
+```
+
 ## Skills
 - Site Reliability Engineering
 

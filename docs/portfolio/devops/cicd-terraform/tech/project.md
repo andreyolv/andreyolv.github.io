@@ -61,3 +61,42 @@ The intent is to make infrastructure delivery:
 - Pipeline failures must be actionable (lock contention, access denied, missing vars).
 
 - Rollback should be Git-driven (revert to previous desired state and re-apply).
+
+## Architecture
+
+```mermaid
+graph LR
+    subgraph GitHub["GitHub (CI/CD)"]
+        PR["Pull Request"]
+        
+        subgraph Actions["GitHub Actions"]
+            Plan["Terraform Plan"]
+            Apply["Terraform Apply"]
+        end
+    end
+
+    subgraph AWS["Cloud Provider (AWS)"]
+        subgraph IAM["Identity & Access Management"]
+            StateRole["State Management Role"]
+            ApplyRole["Provisioning Role"]
+        end
+
+        subgraph S3["Terraform Backend"]
+            S3Backend["S3 Bucket (State File)"]
+            Workspaces["Terraform Workspaces"]
+        end
+    end
+
+    %% Execution flow
+    PR -->|Trigger| Plan
+    Plan -->|on Merge| Apply
+    
+    %% Permissions and access
+    Apply -->|Assume| ApplyRole
+    ApplyRole -->|Create/Update| AWS
+    
+    %% State management
+    Apply -->|Writes to| S3Backend
+    S3Backend -->|Isolated by| Workspaces
+    S3Backend -.->|Access Control| StateRole
+```

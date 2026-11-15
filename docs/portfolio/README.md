@@ -3,6 +3,12 @@
 Projects and professional experience in platform, data and cloud engineering, organized by
 discipline.
 
+Project pages can carry a lifecycle status (`Active`, `POC`, `Deprecated`, `Planned`) and,
+when applicable, an environment (`Production`, `Non-production`, `Local`). Use
+[Categories](categories.md) to browse by discipline and
+[Projects by Status](catalog.md) to filter across all disciplines.
+The Network section is the first pilot.
+
 As a living portfolio, it is expected to be continuously reviewed, refined, and naturally evolved over time.
 
 For the documentation structure and writing conventions used in this repository, see [docs-standard.md](docs-standard.md).
@@ -221,7 +227,7 @@ For the documentation structure and writing conventions used in this repository,
 - [Kubernetes Ingress Traffic on AWS with AWS Load Balancer Controller](network/aws-load-balancer-controller.md)
 - [Automated DNS Records Management in Kubernetes with ExternalDNS](network/external-dns.md)
 - [Kubernetes Network Ingress Traffic with Gateway API and Envoy Gateway](network/gateway-api.md)
-- [User Access Audience Monitoring for Ingress Controller](network/ingress-controller-audience.md)
+- [User Access Audience Monitoring at the Gateway with Envoy Gateway](network/ingress-controller-audience.md)
 - [Kubernetes Network Ingress Traffic with NGINX Ingress Controller](network/ingress-controller.md)
 - [Kubernetes Service-to-Service Traffic Security and Control with Istio](network/istio.md)
 - [Load Balancer for On-Prem Kubernetes with MetalLB](network/metallb.md)

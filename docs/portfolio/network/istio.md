@@ -1,3 +1,9 @@
+---
+status: active
+environment: non-production
+kind: project
+---
+
 # Kubernetes Service-to-Service Traffic Security and Control with Istio
 
 ## Problem

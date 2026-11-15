@@ -22,6 +22,31 @@
 
 - Centralized Job Observability: Configured Prometheus to monitor job performance and resource consumption, providing a clear ROI on infrastructure spend.
 
+## Architecture
+
+```mermaid
+graph LR
+
+    %% -------- AWS / External --------
+    subgraph AWS[AWS]
+        EMRVC[EMR Virtual Cluster]
+    end
+
+    %% -------- Kubernetes Cluster --------
+    subgraph Kubernetes[Kubernetes Cluster]
+
+        subgraph Namespaces[Project Namespaces]
+            SparkJobs[Spark Jobs]
+        end
+
+        EmrOperator[Airflow EmrContainerOperator]
+    end
+
+    %% -------- Flow / connections --------
+    EmrOperator -->|submit jobs| EMRVC
+    EMRVC -->|run jobs| SparkJobs
+```
+
 ## Skills
 - Data Engineering
 

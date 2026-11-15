@@ -36,7 +36,7 @@ graph TD
         Manifests[Kubernetes Manifests]
     end
 
-    %% -------- Fluxo com labels válidos --------
+    %% -------- Flow with valid labels --------
     Code -->|commit| Build
     Build -->|artifact| Push
     Push -->|new image| Images

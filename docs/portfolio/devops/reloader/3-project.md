@@ -1,1 +1,20 @@
 # Automated Pod Rollouts Triggered by ConfigMap and Secret Changes
+
+## Architecture
+
+```mermaid
+graph TD
+    Dev[User / Automation] -->|Update| CM[ConfigMap]
+    Dev -->|Update| Secret[Secret]
+
+    CM --> Reloader[Reloader Controller]
+    Secret --> Reloader
+
+    Reloader -->|Detect Change| Check[Check Annotation]
+
+    Check -->|reloader.stakater.com/auto=true| Workloads[Deployments / StatefulSets / DaemonSets]
+
+    Workloads -->|Trigger Rolling Restart| Pods[Pods]
+
+    Pods -->|Reload Config| App[Application]
+```

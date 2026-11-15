@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Troubleshooting Network Issues in Kubernetes
 
 ## Problem

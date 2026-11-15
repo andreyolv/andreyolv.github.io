@@ -16,6 +16,38 @@
 
 - Dynamic IAM Policy Attachment: Automated the attachment of predefined policies (S3, Glue, Athena) to the role created for each Airflow worker.
 
+## Architecture
+
+```mermaid
+graph LR
+    Terraform[Terraform Module]
+
+    subgraph Kubernetes[Kubernetes]
+        Namespace[Namespace]
+        ServiceAccount[Service Account]
+        PodIdentity[EKS Pod Identity Association]
+    end
+
+    subgraph AWS[AWS IAM]
+        IAMRole[IAM Role]
+        S3Policy[S3 Policy]
+        GluePolicy[Glue Policy]
+        AthenaPolicy[Athena Policy]
+    end
+
+    Terraform --> Namespace
+    Terraform --> ServiceAccount
+    Terraform --> IAMRole
+
+    Namespace --> PodIdentity
+    ServiceAccount --> PodIdentity
+    PodIdentity --> IAMRole
+
+    IAMRole --> S3Policy
+    IAMRole --> GluePolicy
+    IAMRole --> AthenaPolicy
+```
+
 ## Skills
 - Platform Engineering
 

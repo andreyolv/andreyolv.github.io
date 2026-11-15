@@ -1,3 +1,11 @@
+---
+status: deprecated
+environment: production
+kind: project
+superseded_by: gateway-api.md
+superseded_by_label: Gateway API and Envoy Gateway
+---
+
 # Granular Access for Ingress Controller via Identity Provider Groups with Pomerium
 
 ## Problem

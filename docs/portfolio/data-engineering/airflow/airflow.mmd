@@ -27,14 +27,14 @@ graph TD
         Nginx
     end
 
-    %% Conexões Core com Infra
+    %% Core connections to infrastructure
     AirflowCore --> EFS
     AirflowCore -- "push metrics" --> StatsD
     AirflowCore --> PostgresDB
     AirflowCore --> Configurations
     Users -- "only VPN" --> Nginx
     Nginx -- "SSO" --> APIServer
-    %% GitHub Repository e Actions
+    %% GitHub repository and Actions
     subgraph GitHub[Project GitHub Repository]
         DAG[DAG Code]
         subgraph GitHubActions[GitHub Actions]
@@ -62,10 +62,10 @@ graph TD
         Dockerfile -- "tag"--> GA
     end
 
-    %% Conexão com texto solicitado
+    %% Connection to the requested text
     WorkflowDeployDAG -- "copy code" --> EFS_DAGs
 
-    %% Namespace do projeto
+    %% Project namespace
     subgraph ProjectNamespace[Project Namespace]
         Worker[Worker Pod]
 
@@ -82,7 +82,7 @@ graph TD
 
     Worker --> Scheduler
 
-    %% AWS bloco separado com IAM Role
+    %% AWS block split out with the IAM role
     subgraph AWS[AWS]
         IAMRole[IAM Role]
         SecretsManager[SecretsManager]

@@ -16,7 +16,10 @@ nav:
   - Home: index.md
   - Tech Stack: tech-stack.md
   - CV: cv.md
-  - Portfolio: portfolio/README.md
+  - Portfolio:
+      - Overview: portfolio/README.md
+      - Categories: portfolio/categories.md
+      - Projects by Status: portfolio/catalog.md
   - Articles: articles/README.md
 
 # Internal meta pages of the portfolio library: built and linkable, but kept out
@@ -55,9 +58,16 @@ theme:
 
 extra_css:
 - assets/extra.css
+- assets/portfolio.css
+
+extra_javascript:
+- assets/portfolio-filter.js
 
 plugins:
 - search
+
+hooks:
+- hooks/portfolio.py
 
 markdown_extensions:
 - admonition

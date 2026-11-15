@@ -30,6 +30,58 @@
 
 - Team Autonomy with Guardrails: Enabled application teams to provision and manage databases without direct access to cluster internals.
 
+## Architecture
+
+```mermaid
+graph LR
+
+    subgraph Kubernetes[Kubernetes]
+
+        subgraph DataLayer[PostgreSQL Platform CloudNativePG]
+            Operator[CloudNativePG Operator]
+
+            subgraph CRDs[CNPG CRDs]
+                Cluster[PostgreSQL Cluster]
+            end
+
+            subgraph DBCluster[Database Cluster]
+                Primary[Primary Instance]
+                Replica1[Replica Instance]
+                Replica2[Replica Instance]
+            end
+
+            subgraph Storage[Storage & Backup]
+                PVC[Persistent Volumes]
+                Backups[Backups / PITR]
+            end
+
+            subgraph Access[Database Access]
+                Users[Users / Roles]
+                DBs[Databases]
+            end
+        end
+
+        %% Operator manages CRDs
+        Operator -->|Manages| CRDs
+
+        %% CRD creates the actual cluster
+        Cluster --> DBCluster
+
+        %% HA
+        Primary --> Replica1
+        Primary --> Replica2
+
+        %% Storage
+        DBCluster --> PVC
+        DBCluster --> Backups
+
+        %% Logical access
+        Cluster --> Users
+        Cluster --> DBs
+
+    end
+```
+
 ## Skills
 
 - Databases

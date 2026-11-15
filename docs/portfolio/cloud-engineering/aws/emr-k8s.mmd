@@ -15,6 +15,6 @@ graph LR
         EmrOperator[Airflow EmrContainerOperator]
     end
 
-    %% -------- Fluxo / Conexões --------
+    %% -------- Flow / connections --------
     EmrOperator -->|submit jobs| EMRVC
     EMRVC -->|run jobs| SparkJobs

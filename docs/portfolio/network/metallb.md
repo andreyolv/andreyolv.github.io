@@ -1,3 +1,9 @@
+---
+status: active
+environment: local
+kind: project
+---
+
 # Load Balancer for On-Prem Kubernetes with MetalLB
 
 ## Problem

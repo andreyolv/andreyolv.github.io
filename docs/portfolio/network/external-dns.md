@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Automated DNS Records Management in Kubernetes with ExternalDNS
 
 ## Problem
@@ -25,6 +31,31 @@
 - Reduced Operational Risk: Eliminated human error in DNS changes and reduced the risk of stale or conflicting records.
 
 - Faster Delivery: Reduced DNS provisioning time from hours or days to seconds, improving deployment speed and reliability.
+
+## Architecture
+
+```mermaid
+graph LR
+    subgraph Kubernetes[Kubernetes Cluster]
+        Service[Service]
+        Ingress[Ingress]
+        ExternalDNS[ExternalDNS]
+    end
+
+    subgraph Route53[Amazon Route53]
+        ARecord[A Record]
+        AAAARecord[AAAA Record]
+        CNAMERecord[CNAME Record]
+        TXTRecord[TXT Record]
+    end
+
+    Service --> ExternalDNS
+    Ingress --> ExternalDNS
+    ExternalDNS --> ARecord
+    ExternalDNS --> AAAARecord
+    ExternalDNS --> CNAMERecord
+    ExternalDNS --> TXTRecord
+```
 
 ## Skills
 

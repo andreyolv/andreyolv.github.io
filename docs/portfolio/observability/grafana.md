@@ -32,6 +32,41 @@
 
 - Improved Observability Consistency: Provided a reliable and scalable foundation for metrics visualization and operational insights.
 
+## Architecture
+
+```mermaid
+graph LR
+
+    subgraph Kubernetes[Kubernetes]
+
+        subgraph Monitoring[Grafana]
+            Operator[Grafana Operator]
+
+            subgraph CRDs[Grafana CRDs]
+
+                Instance[Grafana Instance]
+
+                subgraph Datasources[GrafanaDatasources]
+                    Prometheus[Prometheus]
+                    Postgres[PostgreSQL]
+                    Athena[Athena]
+                end
+
+                Folders[GrafanaFolder]
+                Dashboards[GrafanaDashboard]
+
+            end
+        end
+
+        Operator -->|Manages| CRDs
+
+        Datasources --> Instance
+        Instance --> Folders
+        Folders --> Dashboards
+
+    end
+```
+
 ## Skills
 - DevOps
 

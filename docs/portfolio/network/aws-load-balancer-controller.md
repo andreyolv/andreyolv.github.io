@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Kubernetes Ingress Traffic on AWS with AWS Load Balancer Controller
 
 ## Problem

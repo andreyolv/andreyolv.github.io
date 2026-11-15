@@ -1,3 +1,9 @@
+---
+status: active
+environment: production
+kind: project
+---
+
 # Kubernetes Network Ingress Traffic with Gateway API and Envoy Gateway
 
 ## Problem

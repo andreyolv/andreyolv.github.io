@@ -26,6 +26,52 @@
 
 - Extensible Architecture: Enabled easy onboarding of new workloads and exporters by following standardized labeling and metric conventions.
 
+## Architecture
+
+```mermaid
+graph TD
+
+    subgraph Kubernetes[Kubernetes]
+
+        subgraph Workloads[Workloads]
+            Pods[Pods]
+            Services[Services]
+        end
+
+        ClusterComponents[Cluster Components
+        - Kubelet
+        - API Server
+        - Scheduler
+        - Controller Manager]
+
+        subgraph Monitoring[Prometheus Stack]
+            Operator[Prometheus Operator]
+
+            KSM[kube-state-metrics]
+            NodeExporter[node-exporter]
+
+            subgraph CRDs[Prometheus CRDs]
+                PM[PodMonitor]
+                SM[ServiceMonitor]
+                Prometheus[Prometheus Server]
+            end
+        end
+
+        Pods --> PM
+        Services --> SM
+        ClusterComponents --> SM
+
+        KSM --> SM
+        NodeExporter --> SM
+
+        PM --> Prometheus
+        SM --> Prometheus
+
+        Operator -->|Manages| CRDs
+
+    end
+```
+
 ## Skills
 - DevOps
 

@@ -17,7 +17,7 @@ graph LR
 
     end
 
-    %% Fluxo correto
+    %% Correct flow
     Pods -->|request resources| NodePool
     NodePool -->|creates| NodeClaim
     NodeClaim -->|provisions| Nodes

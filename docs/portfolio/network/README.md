@@ -1,3 +1,8 @@
+---
+status: planned
+kind: rfc
+---
+
 # RFC
  
  ## Status

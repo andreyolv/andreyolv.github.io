@@ -22,6 +22,34 @@
 
 - Simplified Operations: Using separate node pools by class reduces complexity in cluster management, makes monitoring more actionable, and simplifies upgrades or maintenance without impacting unrelated workloads.
 
+## Architecture
+
+```mermaid
+graph LR
+    subgraph Kubernetes[Kubernetes]
+        Pod1[Pod]
+        Pod2[Pod]
+        Pod3[Pod]
+
+        Kyverno[Kyverno Policy Mutation]
+
+        subgraph NodePools[Karpenter NodePools]
+            direction TB
+
+            SystemPool[NodePool: system]
+            SpotPool[NodePool: spot]
+            OnDemandPool[NodePool: on-demand]
+        end
+
+    end
+
+    Pod1 -->|namespace label: nodepool=system| Kyverno
+    Pod2 -->|namespace label: nodepool=spot| Kyverno
+    Pod3 -->|namespace label: nodepool=on-demand| Kyverno
+
+    Kyverno -->|schedule Pod| NodePools
+```
+
 ## Skills
 - Site Reliability Engineering
 

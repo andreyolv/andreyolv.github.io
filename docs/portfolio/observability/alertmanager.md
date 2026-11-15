@@ -14,6 +14,40 @@
 
 - Proactive Issue Detection: Alerts were tailored to notify teams of critical issues in real-time, minimizing the impact on service availability and performance.
 
+## Architecture
+
+```mermaid
+graph LR
+    subgraph Kubernetes[Kubernetes Cluster]
+
+        subgraph Monitoring[Alerting Stack]
+            AlertMgr[Alertmanager]
+
+            PromServer[Prometheus Server]
+            SlackChannel[Slack Notifications]
+
+            subgraph CRDs[Prometheus CRDs]
+                PromRule[PrometheusRule]
+            end
+
+            subgraph Sources[Alert Sources]
+                K8sInfra[Kubernetes Infrastructure Metrics]
+                CriticalApps[Applications Metrics]
+            end
+        end
+
+    end
+
+    K8sInfra -->|define alert| PromRule
+    CriticalApps -->|define alert| PromRule
+
+    PromRule -->|evaluated by| PromServer
+
+    PromServer -->|send alerts| AlertMgr
+
+    AlertMgr -->|notify| SlackChannel
+```
+
 ## Skills
 - DevOps
 

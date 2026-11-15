@@ -25,6 +25,59 @@ GitHub Actions workflows running on GitHub-hosted runners could not securely acc
 
 - Workflows run in a custom Docker image that includes required tools/dependencies.
 
+## Architecture
+
+```mermaid
+graph TD
+    subgraph GitHub_App[Application GitHub Repository]
+        Caller[Caller Workflow]
+    end
+
+    subgraph GitHub_DataOps[dataops-actions GitHub Repository]
+        Reusable[Reusables Workflows<br/>- deploy-dags<br/>- build-docker-image<br/>- terraform]
+        Dockerfile[Dockerfile<br/>with workflow dependencies]
+    end
+
+    subgraph Update
+        Releases[Releases actions/runner] -- when --> Dockerfile
+    end
+
+    subgraph Container Registry
+        Image[Docker Image]
+    end
+
+    subgraph Kubernetes
+        ARC[Actions Runner Controller]
+        ScaleSet[Runner Scale Set]
+        Listener[Listener]
+        Pods[Ephemeral Pods Runners]
+
+        ARC --> ScaleSet
+        ScaleSet --> Listener
+        Listener --> Pods
+    end
+
+    subgraph Internal Resources
+        APIs[APIs]
+        DBs[Databases]
+        Airflow[Airflow]
+        AWS[AWS]
+    end
+
+    %% Connections between the blocks
+    Caller -- uses --> Reusable
+    
+    Reusable --> ScaleSet
+    
+    Dockerfile -- repo tag build --> Image
+    Image --> ScaleSet
+    
+    Pods --> APIs
+    Pods --> DBs
+    Pods --> Airflow
+    Pods --> AWS
+```
+
 ## Key Components
 - Actions Runner Controller (ARC)
 
