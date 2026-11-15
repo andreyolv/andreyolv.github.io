@@ -1,4 +1,4 @@
-# RFC 001: Analytics Engineering Framework
+# RFC: Analytics Engineering Framework
 
 ## Metadata
 

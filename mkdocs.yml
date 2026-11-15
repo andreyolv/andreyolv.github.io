@@ -12,6 +12,13 @@ edit_uri: edit/main/docs/
 
 docs_dir: docs
 
+nav:
+  - Home: index.md
+  - Tech Stack: tech-stack.md
+  - CV: cv.md
+  - Portfolio: portfolio/README.md
+  - Articles: articles/README.md
+
 # Internal meta pages of the portfolio library: built and linkable, but kept out
 # of the navigation so the sidebar stays focused on real portfolio content.
 not_in_nav: |

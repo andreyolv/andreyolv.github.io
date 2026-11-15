@@ -14,6 +14,7 @@ hide:
 
 <p class="hero-actions" markdown>
 [View CV](cv.md){ .md-button .md-button--primary }
+[Tech Stack](tech-stack.md){ .md-button }
 [Explore the portfolio](portfolio/README.md){ .md-button }
 [GitHub](https://github.com/andreyolv){ .md-button }
 [LinkedIn](https://www.linkedin.com/in/andreyolv){ .md-button }
