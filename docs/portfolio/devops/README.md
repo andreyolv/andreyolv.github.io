@@ -9,8 +9,8 @@ CI/CD, GitHub Actions automation, container builds, GitOps, and developer toolin
 ## GitHub Actions & CI/CD
 
 - [Static Validation of GitHub Actions Workflows with actionlint](actionlint.md)
-- [Reusable GitHub Actions Workflow Templates for Multi-Repository CI/CD Projects](actions-centralization.md)
-- [Automated Infrastructure Terraform Deployment with Github Actions](cicd-terraform.md)
+- [Reusable GitHub Actions Workflow Templates for Multi-Repository CI/CD Projects](actions-centralization/)
+- [Automated Infrastructure Terraform Deployment with Github Actions](cicd-terraform/)
 - [CI/CD Pipelines for Airflow Projects: DAG Code Releases and Image Build with GitHub Actions](cicd-airflow.md)
 - [Automated Lambda Deployment via GitHub Actions](cicd-lambda.md)
 - [Airflow DAG Quality Assurance in CI/CD with Custom GitHub Action](custom-action.md)
@@ -20,7 +20,7 @@ CI/CD, GitHub Actions automation, container builds, GitOps, and developer toolin
 - [Pull Request Template Standardization](pullrequest-template.md)
 - [Automated Pod Rollouts Triggered by ConfigMap and Secret Changes](reloader/1-resume.md)
 - [GitHub Repository Templating for Automated Project Setup](repositories-templates.md)
-- [Self-Hosted GitHub Actions on Kubernetes for Secure CI/CD](self-hosted-actions.md)
+- [Self-Hosted GitHub Actions on Kubernetes for Secure CI/CD](self-hosted-actions/)
 
 ## GitHub Governance & Administration
 

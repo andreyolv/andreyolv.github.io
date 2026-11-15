@@ -1,7 +1,8 @@
 ---
-kind: index
+status: active
+environment: production
+kind: project
 ---
-
 # Reloader — Automated Pod Rollouts
 
 Automated Kubernetes pod rollouts triggered by ConfigMap and Secret changes. This area covers the Resume, ADR, project, operation, and planning documents for the Reloader deployment.

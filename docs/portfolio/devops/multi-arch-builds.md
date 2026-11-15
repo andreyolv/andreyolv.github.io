@@ -16,11 +16,11 @@ kind: project
 - Builds Needing Private Access: Image builds needed internal package repositories and private registries that GitHub-hosted runners could not reach.
 
 ## Solution
-- Native Runners per Architecture: Added `arm64` runner scale sets on Graviton nodes next to the existing `amd64` ones in the [self-hosted runners on Kubernetes](self-hosted-actions.md), so each architecture builds natively instead of through emulation.
+- Native Runners per Architecture: Added `arm64` runner scale sets on Graviton nodes next to the existing `amd64` ones in the [self-hosted runners on Kubernetes](self-hosted-actions/), so each architecture builds natively instead of through emulation.
 
 - Parallel Build and Manifest Merge: Workflows build each architecture in parallel on its own runner with Docker Buildx, push architecture-specific images by digest, and a final job creates a multi-architecture manifest list under the release tag, so a single image reference works on both node types.
 
-- Reusable Workflow: Packaged the pattern as a [centralized reusable workflow](actions-centralization.md) with inputs for image name, platforms and build arguments, so any repository adopts multi-arch builds with a few lines.
+- Reusable Workflow: Packaged the pattern as a [centralized reusable workflow](actions-centralization/) with inputs for image name, platforms and build arguments, so any repository adopts multi-arch builds with a few lines.
 
 - Build Cache per Architecture: Used registry-backed Buildx cache per platform, so incremental builds on both architectures reuse layers instead of starting from scratch.
 

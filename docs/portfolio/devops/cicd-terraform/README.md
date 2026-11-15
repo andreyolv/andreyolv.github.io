@@ -1,7 +1,8 @@
 ---
-kind: index
+status: active
+environment: production
+kind: project
 ---
-
 # Automated Infrastructure Terraform Deployment with GitHub Actions
 
 CI/CD automation for Terraform infrastructure delivery using GitHub Actions. This area covers planning, technical design, operations, and user guides for automated Terraform deployment pipelines.
@@ -40,4 +41,4 @@ CI/CD automation for Terraform infrastructure delivery using GitHub Actions. Thi
 
 ---
 
-> **See also:** [DevOps](../README.md) for the parent DevOps overview, [Reusable GitHub Actions Workflow Templates](../actions-centralization/README.md) for centralized workflow templates, and [Platform Engineering](../platform-engineering/README.md) for GitOps delivery and Crossplane.
+> **See also:** [DevOps](../README.md) for the parent DevOps overview, [Reusable GitHub Actions Workflow Templates](../actions-centralization/README.md) for centralized workflow templates, and [Platform Engineering](../../platform-engineering/README.md) for GitOps delivery and Crossplane.

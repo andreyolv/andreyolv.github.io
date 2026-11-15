@@ -36,7 +36,7 @@ kind: project
 
 - Drift Reconciliation: Reviewed each pending diff with the owners and decided case by case whether to bring the console change into the code or to revert it, until plans were clean and Terraform was again the source of truth.
 
-- Standards and Quality Gates: Standardized directory structure, naming and the `team` and `project` tags ([tag policy](tag-policy.md)), and added `terraform fmt`, `validate` and [TFLint](../platform-engineering/tflint.md) to pre-commit and CI, with deployments only through the [Terraform CI/CD pipeline](../devops/cicd-terraform.md) instead of local applies.
+- Standards and Quality Gates: Standardized directory structure, naming and the `team` and `project` tags ([tag policy](tag-policy.md)), and added `terraform fmt`, `validate` and [TFLint](../platform-engineering/tflint.md) to pre-commit and CI, with deployments only through the [Terraform CI/CD pipeline](../devops/cicd-terraform/) instead of local applies.
 
 ## Skills
 - Cloud Engineering

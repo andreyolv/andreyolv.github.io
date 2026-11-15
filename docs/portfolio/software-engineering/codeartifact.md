@@ -26,7 +26,7 @@ kind: project
 
 - Least-Privilege Access: Repository policies separate publishers (CI roles of each library) from readers (all build and runtime roles), so only the pipeline of a library can publish new versions of it.
 
-- Private Connectivity: Interface VPC endpoints for CodeArtifact and S3 let builds in private subnets and on [self-hosted runners](../devops/self-hosted-actions.md) install packages without internet access.
+- Private Connectivity: Interface VPC endpoints for CodeArtifact and S3 let builds in private subnets and on [self-hosted runners](../devops/self-hosted-actions/) install packages without internet access.
 
 - Standard Tooling: Configured `pip`, `uv`, `poetry` and `npm` to use the CodeArtifact endpoint through shared configuration in project templates, so teams use their usual tools unchanged.
 

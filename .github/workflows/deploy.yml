@@ -26,8 +26,13 @@ jobs:
         cache: pip
 
     - run: pip install -r requirements.txt
-  
-    - run: mkdocs build
+
+    # O catálogo de projetos era gerado por um hook MkDocs (hooks/portfolio.py).
+    # O Zensical não roda hooks Python, então geramos o catálogo estaticamente
+    # antes do build com um script autônomo que lê o frontmatter das páginas.
+    - run: python scripts/generate_portfolio_catalog.py
+
+    - run: zensical build --strict
 
     - run: touch site/.nojekyll
 

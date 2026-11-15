@@ -48,7 +48,7 @@ kind: subpage
 ### User Guide
 - [Reference](user-guide/reference.md)
 
-- [Standards](user-guide/standards.md)
+- Standards
 
 - [Catalog](user-guide/catalog.md)
 
