@@ -12,6 +12,7 @@ For the documentation structure and writing conventions used in this repository,
 - [Cloud](#cloud)
 - [Data Engineering](#data-engineering)
 - [Data Governance](#data-governance)
+- [AI](#ai)
 - [Data Streaming](#data-streaming)
 - [Databases](#databases)
 - [DevOps](#devops)
@@ -318,3 +319,10 @@ For the documentation structure and writing conventions used in this repository,
 - [Service Level Indicators for Data Platforms on Kubernetes and Cloud](site-reliability-engineering/service-level.md)
 - [StorageClass Migration for Persistent Volumes on Kubernetes with Velero](site-reliability-engineering/storageclass-migration.md)
 - [Kubernetes & Cloud Tools Lifecycle and Update Management](site-reliability-engineering/update-tools.md)
+
+---
+
+## AI
+- [AI-Native Development with OpenCode as an AI IDE](ai/opencode-ai-ide.md)
+
+---
