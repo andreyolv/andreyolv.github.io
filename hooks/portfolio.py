@@ -132,6 +132,12 @@ def _validate_meta(rel: str, meta: dict[str, Any]) -> None:
         if meta.get("environment"):
             raise ValueError(f"{rel}: kind {kind!r} must not declare environment")
         return
+    if kind == "standard":
+        if has_status:
+            raise ValueError(f"{rel}: kind standard must not declare status")
+        if meta.get("environment"):
+            raise ValueError(f"{rel}: kind standard must not declare environment")
+        return
     if not has_status or not has_kind:
         raise ValueError(f"{rel}: status and kind must be declared together")
     status = meta.get("status")
